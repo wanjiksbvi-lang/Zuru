@@ -1,0 +1,13 @@
+# AEGIS-X Ultimate Target Configuration
+# Supports multiple target types: WEB, MOBILE, FILE, NETWORK, CODE
+
+# Primary Target for Ultimate Hunt
+youngplatform.com
+
+# Additional Scope (if needed)
+*.youngplatform.com
+api.youngplatform.com
+app.youngplatform.com
+admin.youngplatform.com
+staging.youngplatform.com
+dev.youngplatform.com

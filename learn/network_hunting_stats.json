@@ -1,0 +1,29 @@
+{
+  "networks_scanned": 3,
+  "hosts_discovered": 0,
+  "services_found": 0,
+  "vulnerabilities_found": 0,
+  "hunting_history": [
+    {
+      "target": "youngplatform.com",
+      "hosts_found": 0,
+      "services_found": 0,
+      "findings_count": 0,
+      "timestamp": "2025-09-29T11:56:35.962282"
+    },
+    {
+      "target": "youngplatform.com",
+      "hosts_found": 0,
+      "services_found": 0,
+      "findings_count": 0,
+      "timestamp": "2025-09-29T11:57:03.597197"
+    },
+    {
+      "target": "youngplatform.com",
+      "hosts_found": 0,
+      "services_found": 0,
+      "findings_count": 0,
+      "timestamp": "2025-09-29T12:00:42.972458"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "successful_strategies": {},
+  "failed_strategies": {},
+  "tool_effectiveness": {
+    "amass": 0.5950000000000001,
+    "subfinder": 0.5950000000000001,
+    "assetfinder": 0.5950000000000001,
+    "findomain": 0.5950000000000001,
+    "httpx": 0.5950000000000001,
+    "whatweb": 0.5950000000000001,
+    "wappalyzer": 0.5950000000000001,
+    "builtwith": 0.5950000000000001,
+    "gobuster": 0.5950000000000001,
+    "ffuf": 0.5950000000000001,
+    "dirsearch": 0.5950000000000001,
+    "feroxbuster": 0.5950000000000001,
+    "jsluice": 0.5950000000000001,
+    "linkfinder": 0.5950000000000001,
+    "secretfinder": 0.5950000000000001,
+    "jsbeautifier": 0.5950000000000001,
+    "cloudlist": 0.5950000000000001,
+    "cloud_enum": 0.5950000000000001,
+    "s3scanner": 0.5950000000000001,
+    "gcp-scanner": 0.5950000000000001
+  },
+  "target_insights": {},
+  "improvement_notes": [],
+  "recon_sessions": [
+    {
+      "target": "app.aikido.dev",
+      "target_type": "web",
+      "strategy_used": [
+        {
+          "name": "Domain Intelligence",
+          "tools": [
+            "amass",
+            "subfinder",
+            "assetfinder",
+            "findomain"
+          ],
+          "objectives": [
+            "Discover all subdomains",
+            "Find related domains",
+            "Identify cloud assets",
+            "Map DNS records"
+          ],
+          "self_reflection": "What hidden assets might exist based on this domain structure? Why is this subdomain important? Am I missing anything?"
+        },
+        {
+          "name": "Web Technology Analysis",
+          "tools": [
+            "httpx",
+            "whatweb",
+            "wappalyzer",
+            "builtwith"
+          ],
+          "objectives": [
+            "Identify web technologies",
+            "Detect frameworks and versions",
+            "Find server information",
+            "Analyze security headers"
+          ],
+          "self_reflection": "What vulnerabilities are common in these technologies? Are there known CVEs for these versions?"
+        },
+        {
+          "name": "Content Discovery",
+          "tools": [
+            "gobuster",
+            "ffuf",
+            "dirsearch",
+            "feroxbuster"
+          ],
+          "objectives": [
+            "Discover hidden directories",
+            "Find backup files",
+            "Locate admin panels",
+            "Identify API endpoints"
+          ],
+          "self_reflection": "What sensitive files might exist? Are there common patterns for this technology stack?"
+        },
+        {
+          "name": "JavaScript Analysis",
+          "tools": [
+            "jsluice",
+            "linkfinder",
+            "secretfinder",
+            "jsbeautifier"
+          ],
+          "objectives": [
+            "Extract API endpoints from JS",
+            "Find hardcoded secrets",
+            "Analyze client-side logic",
+            "Discover hidden functionality"
+          ],
+          "self_reflection": "What secrets might be exposed in client-side code? Are there API keys or tokens?"
+        },
+        {
+          "name": "Cloud Asset Discovery",
+          "tools": [
+            "cloudlist",
+            "cloud_enum",
+            "s3scanner",
+            "gcp-scanner"
+          ],
+          "objectives": [
+            "Find cloud storage buckets",
+            "Discover cloud services",
+            "Identify misconfigured resources",
+            "Map cloud infrastructure"
+          ],
+          "self_reflection": "What cloud services might this organization use? Are there naming patterns I can exploit?"
+        }
+      ],
+      "tools_used": [
+        "amass",
+        "subfinder",
+        "assetfinder",
+        "findomain",
+        "httpx",
+        "whatweb",
+        "wappalyzer",
+        "builtwith",
+        "gobuster",
+        "ffuf",
+        "dirsearch",
+        "feroxbuster",
+        "jsluice",
+        "linkfinder",
+        "secretfinder",
+        "jsbeautifier",
+        "cloudlist",
+        "cloud_enum",
+        "s3scanner",
+        "gcp-scanner"
+      ],
+      "duration": 0.033413733333333334,
+      "success_rate": 1.0,
+      "timestamp": "2025-09-28T19:18:51.441260",
+      "learning_notes": []
+    },
+    {
+      "target": "*.aikido.dev",
+      "target_type": "web",
+      "strategy_used": [
+        {
+          "name": "Domain Intelligence",
+          "tools": [
+            "amass",
+            "subfinder",
+            "assetfinder",
+            "findomain"
+          ],
+          "objectives": [
+            "Discover all subdomains",
+            "Find related domains",
+            "Identify cloud assets",
+            "Map DNS records"
+          ],
+          "self_reflection": "What hidden assets might exist based on this domain structure? Why is this subdomain important? Am I missing anything?"
+        },
+        {
+          "name": "Web Technology Analysis",
+          "tools": [
+            "httpx",
+            "whatweb",
+            "wappalyzer",
+            "builtwith"
+          ],
+          "objectives": [
+            "Identify web technologies",
+            "Detect frameworks and versions",
+            "Find server information",
+            "Analyze security headers"
+          ],
+          "self_reflection": "What vulnerabilities are common in these technologies? Are there known CVEs for these versions?"
+        },
+        {
+          "name": "Content Discovery",
+          "tools": [
+            "gobuster",
+            "ffuf",
+            "dirsearch",
+            "feroxbuster"
+          ],
+          "objectives": [
+            "Discover hidden directories",
+            "Find backup files",
+            "Locate admin panels",
+            "Identify API endpoints"
+          ],
+          "self_reflection": "What sensitive files might exist? Are there common patterns for this technology stack?"
+        },
+        {
+          "name": "JavaScript Analysis",
+          "tools": [
+            "jsluice",
+            "linkfinder",
+            "secretfinder",
+            "jsbeautifier"
+          ],
+          "objectives": [
+            "Extract API endpoints from JS",
+            "Find hardcoded secrets",
+            "Analyze client-side logic",
+            "Discover hidden functionality"
+          ],
+          "self_reflection": "What secrets might be exposed in client-side code? Are there API keys or tokens?"
+        },
+        {
+          "name": "Cloud Asset Discovery",
+          "tools": [
+            "cloudlist",
+            "cloud_enum",
+            "s3scanner",
+            "gcp-scanner"
+          ],
+          "objectives": [
+            "Find cloud storage buckets",
+            "Discover cloud services",
+            "Identify misconfigured resources",
+            "Map cloud infrastructure"
+          ],
+          "self_reflection": "What cloud services might this organization use? Are there naming patterns I can exploit?"
+        }
+      ],
+      "tools_used": [
+        "amass",
+        "subfinder",
+        "assetfinder",
+        "findomain",
+        "httpx",
+        "whatweb",
+        "wappalyzer",
+        "builtwith",
+        "gobuster",
+        "ffuf",
+        "dirsearch",
+        "feroxbuster",
+        "jsluice",
+        "linkfinder",
+        "secretfinder",
+        "jsbeautifier",
+        "cloudlist",
+        "cloud_enum",
+        "s3scanner",
+        "gcp-scanner"
+      ],
+      "duration": 0.03341686666666666,
+      "success_rate": 1.0,
+      "timestamp": "2025-09-28T19:19:09.740281",
+      "learning_notes": []
+    }
+  ]
+}

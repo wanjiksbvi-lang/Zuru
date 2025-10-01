@@ -1,0 +1,535 @@
+name: AEGIS-X Ultimate Bug Bounty Hunt
+
+on:
+  push:
+    branches: [ main, master, feature/* ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Target domain to hunt (e.g., youngplatform.com)'
+        required: true
+        default: 'youngplatform.com'
+      iterations:
+        description: 'Maximum hunting iterations'
+        required: false
+        default: '5'
+      emergency_mode:
+        description: 'Enable emergency deep hunt mode'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  ultimate-bug-hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 480  # 8 hours maximum
+    
+    strategy:
+      matrix:
+        python-version: [3.11]
+    
+    steps:
+    - name: 🔥 Checkout AEGIS-X Ultimate System
+      uses: actions/checkout@v4
+      
+    - name: 🐍 Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name: 📦 Cache Dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/pip
+          ~/.cache/go-build
+          ~/.cache/npm
+        key: ${{ runner.os }}-deps-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-deps-
+          
+    - name: 🔧 Install System Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          curl \
+          wget \
+          git \
+          unzip \
+          software-properties-common \
+          apt-transport-https \
+          ca-certificates \
+          gnupg \
+          lsb-release \
+          libgl1-mesa-dri \
+          libglib2.0-0 \
+          libsm6 \
+          libxext6 \
+          libxrender-dev \
+          libgomp1 \
+          libxss1 \
+          libappindicator3-1 \
+          libasound2t64 \
+          libatk-bridge2.0-0 \
+          libdrm2 \
+          libxcomposite1 \
+          libxdamage1 \
+          libxrandr2 \
+          libgbm1 \
+          libxkbcommon0 \
+          libgtk-3-0 \
+          libpcap-dev \
+          libpcap0.8-dev \
+          build-essential \
+          gcc \
+          libc6-dev \
+          libopencv-dev \
+          python3-opencv \
+          libgtk-3-dev \
+          libavcodec-dev \
+          libavformat-dev \
+          libswscale-dev \
+          libv4l-dev \
+          libxvidcore-dev \
+          libx264-dev \
+          libjpeg-dev \
+          libpng-dev \
+          libtiff-dev \
+          libatlas-base-dev \
+          gfortran
+          
+    - name: 🌐 Install Google Chrome
+      run: |
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        
+    - name: 🚗 Install ChromeDriver
+      run: |
+        # Get Chrome version
+        CHROME_VERSION=$(google-chrome --version | cut -d " " -f3)
+        echo "Chrome version: $CHROME_VERSION"
+        
+        # For Chrome 115+, use Chrome for Testing API
+        MAJOR_VERSION=$(echo $CHROME_VERSION | cut -d "." -f1)
+        
+        if [ "$MAJOR_VERSION" -ge 115 ]; then
+          echo "Using Chrome for Testing API for Chrome $MAJOR_VERSION+"
+          # Get the latest ChromeDriver version for this Chrome version
+          CHROMEDRIVER_VERSION=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_$MAJOR_VERSION")
+          if [ -z "$CHROMEDRIVER_VERSION" ]; then
+            # Fallback to stable version
+            CHROMEDRIVER_VERSION=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE")
+          fi
+          echo "ChromeDriver version: $CHROMEDRIVER_VERSION"
+          
+          # Download ChromeDriver from Chrome for Testing
+          wget -O /tmp/chromedriver.zip "https://storage.googleapis.com/chrome-for-testing-public/${CHROMEDRIVER_VERSION}/linux64/chromedriver-linux64.zip"
+          sudo unzip /tmp/chromedriver.zip -d /tmp/
+          sudo mv /tmp/chromedriver-linux64/chromedriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+        else
+          echo "Using legacy ChromeDriver API for Chrome $MAJOR_VERSION"
+          # For older Chrome versions, use the legacy method
+          CHROME_VERSION_SHORT=$(echo $CHROME_VERSION | cut -d "." -f1-3)
+          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION_SHORT}")
+          wget -O /tmp/chromedriver.zip "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip"
+          sudo unzip /tmp/chromedriver.zip -d /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+        fi
+        
+        # Verify installation
+        chromedriver --version
+        
+    - name: 🔧 Install Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.23'
+        
+    - name: 📦 Install Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: 🐍 Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        
+        # Install core dependencies first with version constraints to avoid conflicts
+        pip install -r requirements_core.txt || echo "Some core packages may have failed, continuing..."
+        
+        # Install main requirements with error handling and no-deps for problematic packages
+        pip install -r requirements.txt || echo "Some packages may have failed, continuing..."
+        
+        # Install critical missing dependencies that are essential for the hunt with specific versions
+        pip install --no-deps dnspython python-whois shodan censys sqlparse paramiko scapy cryptography numpy pandas matplotlib seaborn networkx python-magic opencv-python aiohttp aiofiles Pillow selenium || echo "Some critical dependencies failed, continuing..."
+        
+        # Install dependencies for the packages that were installed with --no-deps
+        pip install requests urllib3 certifi charset-normalizer idna yarl multidict async-timeout attrs aiosignal frozenlist || echo "Some dependency packages failed, continuing..."
+        
+        # Verify critical imports work
+        python3 -c "
+        try:
+            import dns.resolver
+            import whois
+            import shodan
+            import cv2
+            import aiohttp
+            import aiofiles
+            from PIL import Image
+            import selenium
+            print('✅ Critical dependencies verified')
+        except ImportError as e:
+            print(f'⚠️ Some dependencies missing: {e}')
+            print('Continuing with available tools...')
+        "
+        
+    - name: 🛠️ Install Advanced Security Tools
+      run: |
+        # Go-based tools
+        go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+        go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+        go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+        go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+        go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+        go install -v github.com/owasp-amass/amass/v3/...@latest
+        go install -v github.com/tomnomnom/assetfinder@latest
+        go install -v github.com/tomnomnom/waybackurls@latest
+        go install -v github.com/lc/gau/v2/cmd/gau@latest
+        go install -v github.com/ffuf/ffuf/v2@latest
+        go install -v github.com/OJ/gobuster/v3@latest
+        go install -v github.com/hahwul/dalfox/v2@latest
+        go install -v github.com/BishopFox/jsluice/cmd/jsluice@latest
+        go install -v github.com/sa7mon/s3scanner@latest
+        
+        # Python-based tools
+        pip install arjun sqlmap commix xsstrike
+        
+        # Install ParamSpider from GitHub (not available on PyPI)
+        git clone https://github.com/devanshbatham/ParamSpider.git /tmp/paramspider
+        cd /tmp/paramspider && pip install -r requirements.txt && pip install .
+        cd - && rm -rf /tmp/paramspider
+        # Install Corsy from GitHub (not available on PyPI)
+        git clone https://github.com/s0md3v/Corsy.git /tmp/corsy
+        cd /tmp/corsy && pip install -r requirements.txt
+        sudo cp corsy.py /usr/local/bin/corsy
+        sudo chmod +x /usr/local/bin/corsy
+        cd - && rm -rf /tmp/corsy
+        
+        # Install GraphQL-Cop from GitHub (not available on PyPI)
+        git clone https://github.com/dolevf/graphql-cop.git /tmp/graphql-cop
+        cd /tmp/graphql-cop && pip install -r requirements.txt
+        sudo cp graphql-cop.py /usr/local/bin/graphql-cop
+        sudo chmod +x /usr/local/bin/graphql-cop
+        cd - && rm -rf /tmp/graphql-cop
+        
+        # Install Python security tools with error handling
+        pip install shcheck cloudsplaining inql || echo "Some Python tools may have failed, continuing..."
+        
+        # Node.js-based tools
+        npm install -g newman
+        
+        # System tools
+        sudo apt-get install -y nmap masscan nikto dirb
+        
+        # Add Go bin to PATH
+        echo "$HOME/go/bin" >> $GITHUB_PATH
+        
+    - name: 📁 Create Directory Structure
+      run: |
+        mkdir -p logs evidence output temp wordlists tools
+        mkdir -p evidence/{screenshots,videos,network,logs,payloads,reports}
+        mkdir -p output/{campaigns,charts,reports}
+        mkdir -p learn/sessions
+        
+    - name: 🔍 Verify AEGIS-X System Readiness
+      run: |
+        echo "🔍 Verifying AEGIS-X Ultimate Master system..."
+        
+        # Test that the main script can start without errors
+        python3 aegis_x_ultimate_master.py --help
+        
+        # Verify all critical modules can be imported
+        python3 -c "
+        import sys
+        try:
+            from core.advanced_professional_hunter import AdvancedProfessionalHunter
+            from core.headless_evidence_collector import HeadlessEvidenceCollector
+            from agents.recon_strategist import ReconStrategist
+            from agents.vuln_tactician import VulnTactician
+            print('✅ All core modules imported successfully')
+        except Exception as e:
+            print(f'❌ Module import failed: {e}')
+            sys.exit(1)
+        "
+        
+        echo "✅ AEGIS-X system verification completed successfully"
+        
+    - name: 🎯 Set Target from Input or Default
+      run: |
+        if [ "${{ github.event.inputs.target }}" != "" ]; then
+          echo "TARGET=${{ github.event.inputs.target }}" >> $GITHUB_ENV
+        else
+          echo "TARGET=youngplatform.com" >> $GITHUB_ENV
+        fi
+        
+        if [ "${{ github.event.inputs.iterations }}" != "" ]; then
+          echo "ITERATIONS=${{ github.event.inputs.iterations }}" >> $GITHUB_ENV
+        else
+          echo "ITERATIONS=5" >> $GITHUB_ENV
+        fi
+        
+    - name: 🧹 Clean Previous Hunt Results
+      run: |
+        echo "🧹 Cleaning previous hunt results for fresh start..."
+        rm -rf \
+          output/ \
+          evidence/ \
+          logs/ \
+          hunt_summary.txt \
+          *.tar.gz \
+          *.json \
+          *.html \
+          ultimate_report_*.* \
+          2>/dev/null || true
+        echo "✅ Previous results cleaned successfully"
+        
+    - name: 🔥 Execute AEGIS-X Ultimate Hunt
+      run: |
+        echo "🚀 Starting AEGIS-X Ultimate Hunt against $TARGET"
+        echo "🎯 Maximum iterations: $ITERATIONS"
+        echo "⏰ Started at: $(date)"
+        
+        # Set display for headless browser
+        export DISPLAY=:99
+        Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+        
+        # Create required directories to ensure they exist
+        echo "📁 Creating required directories..."
+        mkdir -p output/{reports,campaigns} evidence/{screenshots,videos,network,logs,payloads,reports} logs
+        
+        # Create placeholder files immediately to ensure directories are not empty
+        echo "📝 Creating placeholder files to prevent upload failures..."
+        echo "Hunt started at $(date)" > evidence/screenshots/.hunt_started
+        echo "Hunt started at $(date)" > evidence/network/.hunt_started  
+        echo "Hunt started at $(date)" > evidence/payloads/.hunt_started
+        echo "Hunt started at $(date)" > evidence/reports/.hunt_started
+        echo "Hunt started at $(date)" > output/reports/.hunt_started
+        echo "Hunt started at $(date)" > output/campaigns/.hunt_started
+        echo "Hunt started at $(date)" > logs/.hunt_started
+        
+        echo "✅ Directories and placeholder files created successfully"
+        
+        # Run the ultimate hunting system
+        python3 aegis_x_ultimate_master.py \
+          --target "$TARGET" \
+          --iterations "$ITERATIONS" \
+          --output-dir output
+          
+      timeout-minutes: 420  # 7 hours for actual hunting
+      
+    - name: 📊 Generate Hunt Summary
+      if: always()
+      run: |
+        echo "📊 AEGIS-X Ultimate Hunt Summary" > hunt_summary.txt
+        echo "=================================" >> hunt_summary.txt
+        echo "Target: $TARGET" >> hunt_summary.txt
+        echo "Completed at: $(date)" >> hunt_summary.txt
+        echo "" >> hunt_summary.txt
+        
+        # Count output files
+        if [ -d "output" ]; then
+          echo "📁 Output Files Generated:" >> hunt_summary.txt
+          find output -type f -name "*.json" | wc -l | xargs echo "  JSON Reports:" >> hunt_summary.txt
+          find output -type f -name "*.html" | wc -l | xargs echo "  HTML Reports:" >> hunt_summary.txt
+          find output -type f -name "*.md" | wc -l | xargs echo "  Markdown Reports:" >> hunt_summary.txt
+          echo "" >> hunt_summary.txt
+        fi
+        
+        # Count evidence files
+        if [ -d "evidence" ]; then
+          echo "📸 Evidence Files Collected:" >> hunt_summary.txt
+          find evidence -type f -name "*.png" | wc -l | xargs echo "  Screenshots:" >> hunt_summary.txt
+          find evidence -type f -name "*.json" | wc -l | xargs echo "  JSON Logs:" >> hunt_summary.txt
+          find evidence -type f -name "*.txt" | wc -l | xargs echo "  Text Files:" >> hunt_summary.txt
+          echo "" >> hunt_summary.txt
+        fi
+        
+        # Show log summary
+        if [ -f "logs/aegis_x_ultimate_master.log" ]; then
+          echo "🔍 Hunt Log Summary:" >> hunt_summary.txt
+          grep -c "Found.*vulnerability" logs/aegis_x_ultimate_master.log | xargs echo "  Vulnerabilities Found:" >> hunt_summary.txt || echo "  Vulnerabilities Found: 0" >> hunt_summary.txt
+          grep -c "✅ Verified:" logs/aegis_x_ultimate_master.log | xargs echo "  Vulnerabilities Verified:" >> hunt_summary.txt || echo "  Vulnerabilities Verified: 0" >> hunt_summary.txt
+          grep -c "🚨 Found.*vulnerability" logs/aegis_x_ultimate_master.log | xargs echo "  Critical Issues:" >> hunt_summary.txt || echo "  Critical Issues: 0" >> hunt_summary.txt
+        fi
+        
+        cat hunt_summary.txt
+        
+    - name: 📁 Prepare Directories for Upload
+      if: always()
+      run: |
+        echo "📁 Preparing directories for artifact upload..."
+        
+        # Ensure all required directories exist
+        mkdir -p output/{reports,campaigns} evidence/{screenshots,videos,network,logs,payloads,reports} logs
+        
+        # Create placeholder files in empty directories to ensure upload works
+        for dir in output/reports output/campaigns evidence/screenshots evidence/network evidence/payloads evidence/reports logs; do
+          if [ -d "$dir" ]; then
+            # Count actual files (excluding hidden placeholder files)
+            file_count=$(find "$dir" -type f ! -name ".*" 2>/dev/null | wc -l)
+            if [ "$file_count" -eq 0 ]; then
+              echo "No evidence files found in $dir during hunt execution" > "$dir/.no_evidence_found"
+              echo "Target: $TARGET" >> "$dir/.no_evidence_found"
+              echo "Hunt completed at: $(date)" >> "$dir/.no_evidence_found"
+              echo "📝 Created placeholder in empty directory: $dir"
+            else
+              echo "✅ Found $file_count files in $dir"
+            fi
+          else
+            echo "⚠️ Directory $dir does not exist, creating it..."
+            mkdir -p "$dir"
+            echo "No evidence files found in $dir - directory was missing" > "$dir/.directory_missing"
+          fi
+        done
+        
+        # List what we have for debugging
+        echo "📊 Directory contents summary:"
+        echo "📁 Output directory:"
+        find output -type f 2>/dev/null | wc -l | xargs echo "  Files in output/:"
+        echo "📁 Evidence directory:"
+        find evidence -type f 2>/dev/null | wc -l | xargs echo "  Files in evidence/:"
+        echo "📁 Logs directory:"
+        find logs -type f 2>/dev/null | wc -l | xargs echo "  Files in logs/:"
+        
+        # Show specific directories that will be uploaded
+        echo "📤 Directories to be uploaded:"
+        for dir in evidence/screenshots evidence/network evidence/payloads; do
+          if [ -d "$dir" ]; then
+            file_count=$(find "$dir" -type f 2>/dev/null | wc -l)
+            echo "  $dir: $file_count files"
+          else
+            echo "  $dir: MISSING"
+          fi
+        done
+        
+        echo "✅ Directories prepared for upload"
+
+    - name: 🗜️ Compress Evidence and Reports
+      if: always()
+      run: |
+        # Create compressed archive of all results
+        echo "🗜️ Creating compressed archive..."
+        tar -czf aegis-x-results-$TARGET-$(date +%Y%m%d-%H%M%S).tar.gz \
+          output/ \
+          evidence/ \
+          logs/ \
+          hunt_summary.txt \
+          2>/dev/null || true
+        echo "✅ Archive created successfully"
+          
+    - name: 📤 Upload Hunt Results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: aegis-x-hunt-results-${{ env.TARGET }}
+        path: |
+          output/
+          evidence/
+          logs/
+          hunt_summary.txt
+          *.tar.gz
+        retention-days: 30
+        
+    - name: 📤 Upload Detailed Reports
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: aegis-x-detailed-reports-${{ env.TARGET }}
+        path: |
+          output/reports/
+          output/campaigns/
+          evidence/reports/
+        retention-days: 90
+        
+    - name: 📤 Upload Evidence Files
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: aegis-x-evidence-${{ env.TARGET }}
+        path: |
+          evidence/screenshots/
+          evidence/network/
+          evidence/payloads/
+        retention-days: 60
+        
+    - name: 🎯 Check Success Criteria
+      if: always()
+      run: |
+        echo "🎯 Checking AEGIS-X Success Criteria"
+        echo "===================================="
+        
+        # Check if ultimate report exists
+        ULTIMATE_REPORT=$(find output -name "ultimate_report_*.json" | head -1)
+        
+        if [ -f "$ULTIMATE_REPORT" ]; then
+          echo "✅ Ultimate report found: $ULTIMATE_REPORT"
+          
+          # Extract key metrics using jq if available
+          if command -v jq &> /dev/null; then
+            TOTAL_VULNS=$(jq -r '.executive_summary.total_vulnerabilities // 0' "$ULTIMATE_REPORT")
+            CRITICAL_VULNS=$(jq -r '.executive_summary.critical_vulnerabilities // 0' "$ULTIMATE_REPORT")
+            HIGH_VULNS=$(jq -r '.executive_summary.high_vulnerabilities // 0' "$ULTIMATE_REPORT")
+            MEDIUM_VULNS=$(jq -r '.executive_summary.medium_vulnerabilities // 0' "$ULTIMATE_REPORT")
+            SUCCESS=$(jq -r '.executive_summary.success_criteria_met // false' "$ULTIMATE_REPORT")
+            
+            echo "📊 Final Results:"
+            echo "  Total Vulnerabilities: $TOTAL_VULNS"
+            echo "  Critical: $CRITICAL_VULNS (Required: 2+)"
+            echo "  High: $HIGH_VULNS (Required: 3+)"
+            echo "  Medium: $MEDIUM_VULNS (Required: 13+)"
+            echo "  Success Criteria Met: $SUCCESS"
+            
+            # Set success status
+            if [ "$SUCCESS" = "true" ]; then
+              echo "🏆 SUCCESS: AEGIS-X met all success criteria!"
+              echo "success=true" >> $GITHUB_OUTPUT
+            else
+              echo "❌ PARTIAL SUCCESS: Some criteria not met, but vulnerabilities found"
+              echo "success=partial" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "⚠️ jq not available, cannot parse detailed results"
+            echo "success=unknown" >> $GITHUB_OUTPUT
+          fi
+        else
+          echo "❌ No ultimate report found"
+          echo "success=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 🎉 Hunt Complete Notification
+      if: always()
+      run: |
+        echo ""
+        echo "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉"
+        echo "🔥 AEGIS-X ULTIMATE HUNT COMPLETE! 🔥"
+        echo "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉"
+        echo ""
+        echo "Target: $TARGET"
+        echo "Completed at: $(date)"
+        echo ""
+        echo "📁 Check the 'Actions' tab for downloadable artifacts:"
+        echo "   - aegis-x-hunt-results-$TARGET"
+        echo "   - aegis-x-detailed-reports-$TARGET" 
+        echo "   - aegis-x-evidence-$TARGET"
+        echo ""
+        echo "🔍 Review the hunt_summary.txt for quick overview"
+        echo "📊 Check ultimate_report_*.json for comprehensive results"
+        echo ""
+        echo "⚡ AEGIS-X Ultimate Master System v5.0"
+        echo "💀 The most advanced bug bounty hunting system ever created"
+        echo ""

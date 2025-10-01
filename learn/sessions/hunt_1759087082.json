@@ -1,0 +1,51 @@
+{
+  "session_id": "hunt_1759087082",
+  "start_time": "2025-09-28T19:18:02.878720",
+  "targets_file": "targets.txt",
+  "targets": [
+    {
+      "line_number": 5,
+      "raw_target": "app.aikido.dev",
+      "classification": "ClassificationResult(target='app.aikido.dev', target_type=<TargetType.WEB: 'web'>, confidence=0.8, reasoning='Matched pattern: Domain name', metadata={'all_scores': {'web': {'confidence': 0.8, 'pattern': {'pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.8, 'description': 'Domain name'}}}, 'matched_pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "findings": [],
+      "error": "ReconStrategist.analyze() missing 1 required positional argument: 'intelligence'",
+      "intelligence_summary": {
+        "confidence_score": 1.0,
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [
+          "Test for angular framework vulnerabilities",
+          "Test for known CVEs in detected technologies"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "raw_target": "*.aikido.dev",
+      "classification": "ClassificationResult(target='*.aikido.dev', target_type=<TargetType.WEB: 'web'>, confidence=0.85, reasoning='Matched pattern: Wildcard domain', metadata={'all_scores': {'web': {'confidence': 0.85, 'pattern': {'pattern': '^\\\\*\\\\.[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.85, 'description': 'Wildcard domain'}}}, 'matched_pattern': '^\\\\*\\\\.[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "findings": [],
+      "error": "ReconStrategist.analyze() missing 1 required positional argument: 'intelligence'",
+      "intelligence_summary": {
+        "confidence_score": 0.7142857142857143,
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": []
+      }
+    }
+  ],
+  "findings": [],
+  "verified_findings": [],
+  "reports": [],
+  "statistics": {},
+  "learning_insights": {},
+  "end_time": "2025-09-28T19:18:02.881552",
+  "duration": "00:00:00"
+}

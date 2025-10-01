@@ -1,0 +1,271 @@
+2025-10-01 13:33:21,743 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Professional Vulnerability Engine initialized with advanced capabilities
+2025-10-01 13:33:21,743 - AEGIS-X.ProfessionalEvidenceCollector - INFO - 📸 Professional Evidence Collector initialized
+2025-10-01 13:33:21,744 - AEGIS-X.ProfessionalReportEngine - INFO - 📝 Professional Report Engine initialized
+2025-10-01 13:33:21,744 - AEGIS-X.AdvancedVerificationSystem - INFO - 🔬 Advanced Verification System initialized
+2025-10-01 13:33:21,745 - AEGIS-X.IntelligenceEngine - INFO - 🕵️ Intelligence Engine initialized with comprehensive OSINT capabilities
+2025-10-01 13:33:21,745 - AEGIS-X.LearningEngine - INFO - 🧠 Learning Engine initialized with adaptive intelligence
+2025-10-01 13:33:21,745 - AEGIS-X.ProfessionalMaster - INFO - 🚀 AEGIS-X Professional Master System initialized
+2025-10-01 13:33:21,745 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Ready for professional-grade security assessments
+2025-10-01 13:33:21,745 - AEGIS-X.ProfessionalMaster - INFO - 🔥 Starting AEGIS-X Professional Security Assessment
+2025-10-01 13:33:21,745 - AEGIS-X.ProfessionalMaster - INFO - 📋 Session ID: professional_hunt_1759325601
+2025-10-01 13:33:21,745 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Phase 1: Target Classification and Intelligence Gathering
+2025-10-01 13:33:21,745 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Processing target 5: youngplatform.com
+2025-10-01 13:33:21,745 - AEGIS-X.Classifier - INFO - 🔍 Classifying target: youngplatform.com
+2025-10-01 13:33:21,746 - AEGIS-X.Classifier - INFO - 📝 Target classified as: WEB
+2025-10-01 13:33:21,746 - AEGIS-X.Classifier - INFO - 🎯 Confidence: 0.80
+2025-10-01 13:33:21,746 - AEGIS-X.Classifier - INFO - 💭 Reasoning: Matched pattern: Domain name
+2025-10-01 13:33:21,747 - AEGIS-X.IntelligenceEngine - INFO - 🔍 Analyzing target intelligence: youngplatform.com
+2025-10-01 13:33:21,747 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target classified: youngplatform.com -> web
+2025-10-01 13:33:21,747 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Processing target 8: *.youngplatform.com
+2025-10-01 13:33:21,747 - AEGIS-X.Classifier - INFO - 🔍 Classifying target: *.youngplatform.com
+2025-10-01 13:33:21,747 - AEGIS-X.Classifier - INFO - 📝 Target classified as: WEB
+2025-10-01 13:33:21,747 - AEGIS-X.Classifier - INFO - 🎯 Confidence: 0.85
+2025-10-01 13:33:21,747 - AEGIS-X.Classifier - INFO - 💭 Reasoning: Matched pattern: Wildcard domain
+2025-10-01 13:33:21,747 - AEGIS-X.IntelligenceEngine - INFO - 🔍 Analyzing target intelligence: *.youngplatform.com
+2025-10-01 13:33:21,748 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target classified: *.youngplatform.com -> web
+2025-10-01 13:33:21,748 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Processing target 9: api.youngplatform.com
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 🔍 Classifying target: api.youngplatform.com
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 📝 Target classified as: WEB
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 🎯 Confidence: 0.80
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 💭 Reasoning: Matched pattern: Domain name
+2025-10-01 13:33:21,748 - AEGIS-X.IntelligenceEngine - INFO - 🔍 Analyzing target intelligence: api.youngplatform.com
+2025-10-01 13:33:21,748 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target classified: api.youngplatform.com -> web
+2025-10-01 13:33:21,748 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Processing target 10: app.youngplatform.com
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 🔍 Classifying target: app.youngplatform.com
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 📝 Target classified as: WEB
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 🎯 Confidence: 0.80
+2025-10-01 13:33:21,748 - AEGIS-X.Classifier - INFO - 💭 Reasoning: Matched pattern: Domain name
+2025-10-01 13:33:21,749 - AEGIS-X.IntelligenceEngine - INFO - 🔍 Analyzing target intelligence: app.youngplatform.com
+2025-10-01 13:33:21,749 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target classified: app.youngplatform.com -> web
+2025-10-01 13:33:21,749 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Processing target 11: admin.youngplatform.com
+2025-10-01 13:33:21,749 - AEGIS-X.Classifier - INFO - 🔍 Classifying target: admin.youngplatform.com
+2025-10-01 13:33:21,749 - AEGIS-X.Classifier - INFO - 📝 Target classified as: WEB
+2025-10-01 13:33:21,749 - AEGIS-X.Classifier - INFO - 🎯 Confidence: 0.80
+2025-10-01 13:33:21,749 - AEGIS-X.Classifier - INFO - 💭 Reasoning: Matched pattern: Domain name
+2025-10-01 13:33:21,749 - AEGIS-X.IntelligenceEngine - INFO - 🔍 Analyzing target intelligence: admin.youngplatform.com
+2025-10-01 13:33:21,749 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target classified: admin.youngplatform.com -> web
+2025-10-01 13:33:21,750 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Processing target 12: staging.youngplatform.com
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 🔍 Classifying target: staging.youngplatform.com
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 📝 Target classified as: WEB
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 🎯 Confidence: 0.80
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 💭 Reasoning: Matched pattern: Domain name
+2025-10-01 13:33:21,750 - AEGIS-X.IntelligenceEngine - INFO - 🔍 Analyzing target intelligence: staging.youngplatform.com
+2025-10-01 13:33:21,750 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target classified: staging.youngplatform.com -> web
+2025-10-01 13:33:21,750 - AEGIS-X.ProfessionalMaster - INFO - 🎯 Processing target 13: dev.youngplatform.com
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 🔍 Classifying target: dev.youngplatform.com
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 📝 Target classified as: WEB
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 🎯 Confidence: 0.80
+2025-10-01 13:33:21,750 - AEGIS-X.Classifier - INFO - 💭 Reasoning: Matched pattern: Domain name
+2025-10-01 13:33:21,751 - AEGIS-X.IntelligenceEngine - INFO - 🔍 Analyzing target intelligence: dev.youngplatform.com
+2025-10-01 13:33:21,751 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target classified: dev.youngplatform.com -> web
+2025-10-01 13:33:21,751 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Phase 2: Professional Vulnerability Discovery
+2025-10-01 13:33:21,751 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Professional vulnerability discovery: youngplatform.com (web)
+2025-10-01 13:33:21,751 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Starting comprehensive professional scan for: youngplatform.com
+2025-10-01 13:33:21,751 - AEGIS-X.ProfessionalVulnEngine - INFO - 🕵️ Phase 1: Advanced Reconnaissance
+2025-10-01 13:33:21,751 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing amass: amass enum -active -d youngplatform.com -o temp/scan_results/vuln_scan_1759325601/amass_1759325601.txt
+2025-10-01 13:33:21,752 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing subfinder: subfinder -d youngplatform.com -all -recursive -o temp/scan_results/vuln_scan_1759325601/subfinder_1759325601.txt
+2025-10-01 13:33:21,753 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing assetfinder: assetfinder --subs-only youngplatform.com | tee temp/scan_results/vuln_scan_1759325601/assetfinder_1759325601.txt
+2025-10-01 13:33:21,753 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing findomain: findomain -t youngplatform.com -u temp/scan_results/vuln_scan_1759325601/findomain_1759325601.txt
+2025-10-01 13:33:21,756 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔍 Phase 2: Comprehensive Vulnerability Scanning
+2025-10-01 13:33:21,756 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nuclei: nuclei -u youngplatform.com -t /root/nuclei-templates/ -severity critical,high,medium -o temp/scan_results/vuln_scan_1759325601/nuclei_1759325601.txt
+2025-10-01 13:33:21,757 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nikto: nikto -h youngplatform.com -output temp/scan_results/vuln_scan_1759325601/nikto_1759325601.txt -Format json
+2025-10-01 13:33:21,758 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing wapiti: wapiti -u youngplatform.com --scope domain -f json -o temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,759 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing sqlmap: sqlmap -u 'youngplatform.com' --batch --risk=3 --level=5 --random-agent --tamper=space2comment --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,760 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing xssstrike: python3 /opt/XSStrike/xssstrike.py -u youngplatform.com --crawl --blind --skip-dom
+2025-10-01 13:33:21,761 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing dalfox: dalfox url youngplatform.com --deep-domxss --mining-dict --waf-evasion -o temp/scan_results/vuln_scan_1759325601/dalfox_1759325601.txt
+2025-10-01 13:33:21,761 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing commix: python3 /opt/commix/commix.py --url='youngplatform.com' --batch --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,776 - AEGIS-X.ProfessionalVulnEngine - INFO - 📂 Phase 3: Content and Parameter Discovery
+2025-10-01 13:33:21,776 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing gobuster: gobuster dir -u youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/gobuster_1759325601.txt
+2025-10-01 13:33:21,777 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing ffuf: ffuf -u youngplatform.com/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -mc 200,204,301,302,307,401,403 -o temp/scan_results/vuln_scan_1759325601/ffuf_1759325601.txt -of json
+2025-10-01 13:33:21,778 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing feroxbuster: feroxbuster -u youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/feroxbuster_1759325601.txt
+2025-10-01 13:33:21,779 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing arjun: arjun -u youngplatform.com -oJ temp/scan_results/vuln_scan_1759325601/arjun_1759325601.txt
+2025-10-01 13:33:21,780 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing paramspider: python3 /opt/ParamSpider/paramspider.py -d youngplatform.com -o temp/scan_results/vuln_scan_1759325601/paramspider_1759325601.txt
+2025-10-01 13:33:21,794 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔬 Phase 4: JavaScript and API Analysis
+2025-10-01 13:33:21,794 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing linkfinder: python3 /opt/LinkFinder/linkfinder.py -i youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/linkfinder_1759325601.txt
+2025-10-01 13:33:21,795 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing secretfinder: python3 /opt/SecretFinder/SecretFinder.py -i youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/secretfinder_1759325601.txt
+2025-10-01 13:33:21,811 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing kiterunner: kr scan youngplatform.com -w /opt/kiterunner/routes.kite -o temp/scan_results/vuln_scan_1759325601/kiterunner_1759325601.txt
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalVulnEngine - INFO - 💥 Phase 5: Advanced Exploitation Testing
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔗 Phase 6: Vulnerability Chaining Analysis
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalVulnEngine - INFO - ✅ Comprehensive scan completed - Found 0 total findings
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target youngplatform.com completed - 0 findings
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Professional vulnerability discovery: *.youngplatform.com (web)
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Starting comprehensive professional scan for: *.youngplatform.com
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalVulnEngine - INFO - 🕵️ Phase 1: Advanced Reconnaissance
+2025-10-01 13:33:21,813 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing amass: amass enum -active -d *.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/amass_1759325601.txt
+2025-10-01 13:33:21,814 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing subfinder: subfinder -d *.youngplatform.com -all -recursive -o temp/scan_results/vuln_scan_1759325601/subfinder_1759325601.txt
+2025-10-01 13:33:21,814 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing assetfinder: assetfinder --subs-only *.youngplatform.com | tee temp/scan_results/vuln_scan_1759325601/assetfinder_1759325601.txt
+2025-10-01 13:33:21,815 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing findomain: findomain -t *.youngplatform.com -u temp/scan_results/vuln_scan_1759325601/findomain_1759325601.txt
+2025-10-01 13:33:21,817 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔍 Phase 2: Comprehensive Vulnerability Scanning
+2025-10-01 13:33:21,817 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nuclei: nuclei -u *.youngplatform.com -t /root/nuclei-templates/ -severity critical,high,medium -o temp/scan_results/vuln_scan_1759325601/nuclei_1759325601.txt
+2025-10-01 13:33:21,817 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nikto: nikto -h *.youngplatform.com -output temp/scan_results/vuln_scan_1759325601/nikto_1759325601.txt -Format json
+2025-10-01 13:33:21,818 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing wapiti: wapiti -u *.youngplatform.com --scope domain -f json -o temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,819 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing sqlmap: sqlmap -u '*.youngplatform.com' --batch --risk=3 --level=5 --random-agent --tamper=space2comment --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,819 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing xssstrike: python3 /opt/XSStrike/xssstrike.py -u *.youngplatform.com --crawl --blind --skip-dom
+2025-10-01 13:33:21,820 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing dalfox: dalfox url *.youngplatform.com --deep-domxss --mining-dict --waf-evasion -o temp/scan_results/vuln_scan_1759325601/dalfox_1759325601.txt
+2025-10-01 13:33:21,821 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing commix: python3 /opt/commix/commix.py --url='*.youngplatform.com' --batch --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,833 - AEGIS-X.ProfessionalVulnEngine - INFO - 📂 Phase 3: Content and Parameter Discovery
+2025-10-01 13:33:21,833 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing gobuster: gobuster dir -u *.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/gobuster_1759325601.txt
+2025-10-01 13:33:21,834 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing ffuf: ffuf -u *.youngplatform.com/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -mc 200,204,301,302,307,401,403 -o temp/scan_results/vuln_scan_1759325601/ffuf_1759325601.txt -of json
+2025-10-01 13:33:21,834 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing feroxbuster: feroxbuster -u *.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/feroxbuster_1759325601.txt
+2025-10-01 13:33:21,836 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing arjun: arjun -u *.youngplatform.com -oJ temp/scan_results/vuln_scan_1759325601/arjun_1759325601.txt
+2025-10-01 13:33:21,836 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing paramspider: python3 /opt/ParamSpider/paramspider.py -d *.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/paramspider_1759325601.txt
+2025-10-01 13:33:21,849 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔬 Phase 4: JavaScript and API Analysis
+2025-10-01 13:33:21,849 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing linkfinder: python3 /opt/LinkFinder/linkfinder.py -i *.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/linkfinder_1759325601.txt
+2025-10-01 13:33:21,849 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing secretfinder: python3 /opt/SecretFinder/SecretFinder.py -i *.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/secretfinder_1759325601.txt
+2025-10-01 13:33:21,865 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing kiterunner: kr scan *.youngplatform.com -w /opt/kiterunner/routes.kite -o temp/scan_results/vuln_scan_1759325601/kiterunner_1759325601.txt
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalVulnEngine - INFO - 💥 Phase 5: Advanced Exploitation Testing
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔗 Phase 6: Vulnerability Chaining Analysis
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalVulnEngine - INFO - ✅ Comprehensive scan completed - Found 0 total findings
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target *.youngplatform.com completed - 0 findings
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Professional vulnerability discovery: api.youngplatform.com (web)
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Starting comprehensive professional scan for: api.youngplatform.com
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalVulnEngine - INFO - 🕵️ Phase 1: Advanced Reconnaissance
+2025-10-01 13:33:21,867 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing amass: amass enum -active -d api.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/amass_1759325601.txt
+2025-10-01 13:33:21,868 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing subfinder: subfinder -d api.youngplatform.com -all -recursive -o temp/scan_results/vuln_scan_1759325601/subfinder_1759325601.txt
+2025-10-01 13:33:21,868 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing assetfinder: assetfinder --subs-only api.youngplatform.com | tee temp/scan_results/vuln_scan_1759325601/assetfinder_1759325601.txt
+2025-10-01 13:33:21,869 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing findomain: findomain -t api.youngplatform.com -u temp/scan_results/vuln_scan_1759325601/findomain_1759325601.txt
+2025-10-01 13:33:21,871 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔍 Phase 2: Comprehensive Vulnerability Scanning
+2025-10-01 13:33:21,871 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nuclei: nuclei -u api.youngplatform.com -t /root/nuclei-templates/ -severity critical,high,medium -o temp/scan_results/vuln_scan_1759325601/nuclei_1759325601.txt
+2025-10-01 13:33:21,871 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nikto: nikto -h api.youngplatform.com -output temp/scan_results/vuln_scan_1759325601/nikto_1759325601.txt -Format json
+2025-10-01 13:33:21,872 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing wapiti: wapiti -u api.youngplatform.com --scope domain -f json -o temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,873 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing sqlmap: sqlmap -u 'api.youngplatform.com' --batch --risk=3 --level=5 --random-agent --tamper=space2comment --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,874 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing xssstrike: python3 /opt/XSStrike/xssstrike.py -u api.youngplatform.com --crawl --blind --skip-dom
+2025-10-01 13:33:21,874 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing dalfox: dalfox url api.youngplatform.com --deep-domxss --mining-dict --waf-evasion -o temp/scan_results/vuln_scan_1759325601/dalfox_1759325601.txt
+2025-10-01 13:33:21,875 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing commix: python3 /opt/commix/commix.py --url='api.youngplatform.com' --batch --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,892 - AEGIS-X.ProfessionalVulnEngine - INFO - 📂 Phase 3: Content and Parameter Discovery
+2025-10-01 13:33:21,892 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing gobuster: gobuster dir -u api.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/gobuster_1759325601.txt
+2025-10-01 13:33:21,892 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing ffuf: ffuf -u api.youngplatform.com/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -mc 200,204,301,302,307,401,403 -o temp/scan_results/vuln_scan_1759325601/ffuf_1759325601.txt -of json
+2025-10-01 13:33:21,893 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing feroxbuster: feroxbuster -u api.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/feroxbuster_1759325601.txt
+2025-10-01 13:33:21,894 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing arjun: arjun -u api.youngplatform.com -oJ temp/scan_results/vuln_scan_1759325601/arjun_1759325601.txt
+2025-10-01 13:33:21,895 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing paramspider: python3 /opt/ParamSpider/paramspider.py -d api.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/paramspider_1759325601.txt
+2025-10-01 13:33:21,908 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔬 Phase 4: JavaScript and API Analysis
+2025-10-01 13:33:21,908 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing linkfinder: python3 /opt/LinkFinder/linkfinder.py -i api.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/linkfinder_1759325601.txt
+2025-10-01 13:33:21,909 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing secretfinder: python3 /opt/SecretFinder/SecretFinder.py -i api.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/secretfinder_1759325601.txt
+2025-10-01 13:33:21,922 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing kiterunner: kr scan api.youngplatform.com -w /opt/kiterunner/routes.kite -o temp/scan_results/vuln_scan_1759325601/kiterunner_1759325601.txt
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalVulnEngine - INFO - 💥 Phase 5: Advanced Exploitation Testing
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔗 Phase 6: Vulnerability Chaining Analysis
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalVulnEngine - INFO - ✅ Comprehensive scan completed - Found 0 total findings
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target api.youngplatform.com completed - 0 findings
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Professional vulnerability discovery: app.youngplatform.com (web)
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Starting comprehensive professional scan for: app.youngplatform.com
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalVulnEngine - INFO - 🕵️ Phase 1: Advanced Reconnaissance
+2025-10-01 13:33:21,923 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing amass: amass enum -active -d app.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/amass_1759325601.txt
+2025-10-01 13:33:21,924 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing subfinder: subfinder -d app.youngplatform.com -all -recursive -o temp/scan_results/vuln_scan_1759325601/subfinder_1759325601.txt
+2025-10-01 13:33:21,924 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing assetfinder: assetfinder --subs-only app.youngplatform.com | tee temp/scan_results/vuln_scan_1759325601/assetfinder_1759325601.txt
+2025-10-01 13:33:21,925 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing findomain: findomain -t app.youngplatform.com -u temp/scan_results/vuln_scan_1759325601/findomain_1759325601.txt
+2025-10-01 13:33:21,927 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔍 Phase 2: Comprehensive Vulnerability Scanning
+2025-10-01 13:33:21,927 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nuclei: nuclei -u app.youngplatform.com -t /root/nuclei-templates/ -severity critical,high,medium -o temp/scan_results/vuln_scan_1759325601/nuclei_1759325601.txt
+2025-10-01 13:33:21,928 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nikto: nikto -h app.youngplatform.com -output temp/scan_results/vuln_scan_1759325601/nikto_1759325601.txt -Format json
+2025-10-01 13:33:21,928 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing wapiti: wapiti -u app.youngplatform.com --scope domain -f json -o temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,930 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing sqlmap: sqlmap -u 'app.youngplatform.com' --batch --risk=3 --level=5 --random-agent --tamper=space2comment --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,930 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing xssstrike: python3 /opt/XSStrike/xssstrike.py -u app.youngplatform.com --crawl --blind --skip-dom
+2025-10-01 13:33:21,931 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing dalfox: dalfox url app.youngplatform.com --deep-domxss --mining-dict --waf-evasion -o temp/scan_results/vuln_scan_1759325601/dalfox_1759325601.txt
+2025-10-01 13:33:21,931 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing commix: python3 /opt/commix/commix.py --url='app.youngplatform.com' --batch --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,947 - AEGIS-X.ProfessionalVulnEngine - INFO - 📂 Phase 3: Content and Parameter Discovery
+2025-10-01 13:33:21,947 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing gobuster: gobuster dir -u app.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/gobuster_1759325601.txt
+2025-10-01 13:33:21,947 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing ffuf: ffuf -u app.youngplatform.com/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -mc 200,204,301,302,307,401,403 -o temp/scan_results/vuln_scan_1759325601/ffuf_1759325601.txt -of json
+2025-10-01 13:33:21,948 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing feroxbuster: feroxbuster -u app.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/feroxbuster_1759325601.txt
+2025-10-01 13:33:21,949 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing arjun: arjun -u app.youngplatform.com -oJ temp/scan_results/vuln_scan_1759325601/arjun_1759325601.txt
+2025-10-01 13:33:21,950 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing paramspider: python3 /opt/ParamSpider/paramspider.py -d app.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/paramspider_1759325601.txt
+2025-10-01 13:33:21,962 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔬 Phase 4: JavaScript and API Analysis
+2025-10-01 13:33:21,963 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing linkfinder: python3 /opt/LinkFinder/linkfinder.py -i app.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/linkfinder_1759325601.txt
+2025-10-01 13:33:21,963 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing secretfinder: python3 /opt/SecretFinder/SecretFinder.py -i app.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/secretfinder_1759325601.txt
+2025-10-01 13:33:21,976 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing kiterunner: kr scan app.youngplatform.com -w /opt/kiterunner/routes.kite -o temp/scan_results/vuln_scan_1759325601/kiterunner_1759325601.txt
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalVulnEngine - INFO - 💥 Phase 5: Advanced Exploitation Testing
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔗 Phase 6: Vulnerability Chaining Analysis
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalVulnEngine - INFO - ✅ Comprehensive scan completed - Found 0 total findings
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target app.youngplatform.com completed - 0 findings
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Professional vulnerability discovery: admin.youngplatform.com (web)
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Starting comprehensive professional scan for: admin.youngplatform.com
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalVulnEngine - INFO - 🕵️ Phase 1: Advanced Reconnaissance
+2025-10-01 13:33:21,977 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing amass: amass enum -active -d admin.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/amass_1759325601.txt
+2025-10-01 13:33:21,978 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing subfinder: subfinder -d admin.youngplatform.com -all -recursive -o temp/scan_results/vuln_scan_1759325601/subfinder_1759325601.txt
+2025-10-01 13:33:21,978 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing assetfinder: assetfinder --subs-only admin.youngplatform.com | tee temp/scan_results/vuln_scan_1759325601/assetfinder_1759325601.txt
+2025-10-01 13:33:21,979 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing findomain: findomain -t admin.youngplatform.com -u temp/scan_results/vuln_scan_1759325601/findomain_1759325601.txt
+2025-10-01 13:33:21,981 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔍 Phase 2: Comprehensive Vulnerability Scanning
+2025-10-01 13:33:21,981 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nuclei: nuclei -u admin.youngplatform.com -t /root/nuclei-templates/ -severity critical,high,medium -o temp/scan_results/vuln_scan_1759325601/nuclei_1759325601.txt
+2025-10-01 13:33:21,982 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nikto: nikto -h admin.youngplatform.com -output temp/scan_results/vuln_scan_1759325601/nikto_1759325601.txt -Format json
+2025-10-01 13:33:21,982 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing wapiti: wapiti -u admin.youngplatform.com --scope domain -f json -o temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,983 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing sqlmap: sqlmap -u 'admin.youngplatform.com' --batch --risk=3 --level=5 --random-agent --tamper=space2comment --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:21,984 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing xssstrike: python3 /opt/XSStrike/xssstrike.py -u admin.youngplatform.com --crawl --blind --skip-dom
+2025-10-01 13:33:21,984 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing dalfox: dalfox url admin.youngplatform.com --deep-domxss --mining-dict --waf-evasion -o temp/scan_results/vuln_scan_1759325601/dalfox_1759325601.txt
+2025-10-01 13:33:21,985 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing commix: python3 /opt/commix/commix.py --url='admin.youngplatform.com' --batch --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:22,001 - AEGIS-X.ProfessionalVulnEngine - INFO - 📂 Phase 3: Content and Parameter Discovery
+2025-10-01 13:33:22,001 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing gobuster: gobuster dir -u admin.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/gobuster_1759325602.txt
+2025-10-01 13:33:22,001 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing ffuf: ffuf -u admin.youngplatform.com/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -mc 200,204,301,302,307,401,403 -o temp/scan_results/vuln_scan_1759325601/ffuf_1759325602.txt -of json
+2025-10-01 13:33:22,002 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing feroxbuster: feroxbuster -u admin.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/feroxbuster_1759325602.txt
+2025-10-01 13:33:22,003 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing arjun: arjun -u admin.youngplatform.com -oJ temp/scan_results/vuln_scan_1759325601/arjun_1759325602.txt
+2025-10-01 13:33:22,004 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing paramspider: python3 /opt/ParamSpider/paramspider.py -d admin.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/paramspider_1759325602.txt
+2025-10-01 13:33:22,016 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔬 Phase 4: JavaScript and API Analysis
+2025-10-01 13:33:22,016 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing linkfinder: python3 /opt/LinkFinder/linkfinder.py -i admin.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/linkfinder_1759325602.txt
+2025-10-01 13:33:22,017 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing secretfinder: python3 /opt/SecretFinder/SecretFinder.py -i admin.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/secretfinder_1759325602.txt
+2025-10-01 13:33:22,030 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing kiterunner: kr scan admin.youngplatform.com -w /opt/kiterunner/routes.kite -o temp/scan_results/vuln_scan_1759325601/kiterunner_1759325602.txt
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalVulnEngine - INFO - 💥 Phase 5: Advanced Exploitation Testing
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔗 Phase 6: Vulnerability Chaining Analysis
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalVulnEngine - INFO - ✅ Comprehensive scan completed - Found 0 total findings
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target admin.youngplatform.com completed - 0 findings
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Professional vulnerability discovery: staging.youngplatform.com (web)
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Starting comprehensive professional scan for: staging.youngplatform.com
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalVulnEngine - INFO - 🕵️ Phase 1: Advanced Reconnaissance
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing amass: amass enum -active -d staging.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/amass_1759325602.txt
+2025-10-01 13:33:22,032 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing subfinder: subfinder -d staging.youngplatform.com -all -recursive -o temp/scan_results/vuln_scan_1759325601/subfinder_1759325602.txt
+2025-10-01 13:33:22,033 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing assetfinder: assetfinder --subs-only staging.youngplatform.com | tee temp/scan_results/vuln_scan_1759325601/assetfinder_1759325602.txt
+2025-10-01 13:33:22,034 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing findomain: findomain -t staging.youngplatform.com -u temp/scan_results/vuln_scan_1759325601/findomain_1759325602.txt
+2025-10-01 13:33:22,036 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔍 Phase 2: Comprehensive Vulnerability Scanning
+2025-10-01 13:33:22,036 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nuclei: nuclei -u staging.youngplatform.com -t /root/nuclei-templates/ -severity critical,high,medium -o temp/scan_results/vuln_scan_1759325601/nuclei_1759325602.txt
+2025-10-01 13:33:22,036 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nikto: nikto -h staging.youngplatform.com -output temp/scan_results/vuln_scan_1759325601/nikto_1759325602.txt -Format json
+2025-10-01 13:33:22,037 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing wapiti: wapiti -u staging.youngplatform.com --scope domain -f json -o temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:22,038 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing sqlmap: sqlmap -u 'staging.youngplatform.com' --batch --risk=3 --level=5 --random-agent --tamper=space2comment --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:22,038 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing xssstrike: python3 /opt/XSStrike/xssstrike.py -u staging.youngplatform.com --crawl --blind --skip-dom
+2025-10-01 13:33:22,039 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing dalfox: dalfox url staging.youngplatform.com --deep-domxss --mining-dict --waf-evasion -o temp/scan_results/vuln_scan_1759325601/dalfox_1759325602.txt
+2025-10-01 13:33:22,040 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing commix: python3 /opt/commix/commix.py --url='staging.youngplatform.com' --batch --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:22,053 - AEGIS-X.ProfessionalVulnEngine - INFO - 📂 Phase 3: Content and Parameter Discovery
+2025-10-01 13:33:22,053 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing gobuster: gobuster dir -u staging.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/gobuster_1759325602.txt
+2025-10-01 13:33:22,053 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing ffuf: ffuf -u staging.youngplatform.com/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -mc 200,204,301,302,307,401,403 -o temp/scan_results/vuln_scan_1759325601/ffuf_1759325602.txt -of json
+2025-10-01 13:33:22,054 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing feroxbuster: feroxbuster -u staging.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/feroxbuster_1759325602.txt
+2025-10-01 13:33:22,055 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing arjun: arjun -u staging.youngplatform.com -oJ temp/scan_results/vuln_scan_1759325601/arjun_1759325602.txt
+2025-10-01 13:33:22,056 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing paramspider: python3 /opt/ParamSpider/paramspider.py -d staging.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/paramspider_1759325602.txt
+2025-10-01 13:33:22,068 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔬 Phase 4: JavaScript and API Analysis
+2025-10-01 13:33:22,069 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing linkfinder: python3 /opt/LinkFinder/linkfinder.py -i staging.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/linkfinder_1759325602.txt
+2025-10-01 13:33:22,069 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing secretfinder: python3 /opt/SecretFinder/SecretFinder.py -i staging.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/secretfinder_1759325602.txt
+2025-10-01 13:33:22,082 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing kiterunner: kr scan staging.youngplatform.com -w /opt/kiterunner/routes.kite -o temp/scan_results/vuln_scan_1759325601/kiterunner_1759325602.txt
+2025-10-01 13:33:22,083 - AEGIS-X.ProfessionalVulnEngine - INFO - 💥 Phase 5: Advanced Exploitation Testing
+2025-10-01 13:33:22,083 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔗 Phase 6: Vulnerability Chaining Analysis
+2025-10-01 13:33:22,083 - AEGIS-X.ProfessionalVulnEngine - INFO - ✅ Comprehensive scan completed - Found 0 total findings
+2025-10-01 13:33:22,083 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target staging.youngplatform.com completed - 0 findings
+2025-10-01 13:33:22,083 - AEGIS-X.ProfessionalMaster - INFO - 🔍 Professional vulnerability discovery: dev.youngplatform.com (web)
+2025-10-01 13:33:22,083 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔥 Starting comprehensive professional scan for: dev.youngplatform.com
+2025-10-01 13:33:22,083 - AEGIS-X.ProfessionalVulnEngine - INFO - 🕵️ Phase 1: Advanced Reconnaissance
+2025-10-01 13:33:22,084 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing amass: amass enum -active -d dev.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/amass_1759325602.txt
+2025-10-01 13:33:22,084 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing subfinder: subfinder -d dev.youngplatform.com -all -recursive -o temp/scan_results/vuln_scan_1759325601/subfinder_1759325602.txt
+2025-10-01 13:33:22,085 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing assetfinder: assetfinder --subs-only dev.youngplatform.com | tee temp/scan_results/vuln_scan_1759325601/assetfinder_1759325602.txt
+2025-10-01 13:33:22,085 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing findomain: findomain -t dev.youngplatform.com -u temp/scan_results/vuln_scan_1759325601/findomain_1759325602.txt
+2025-10-01 13:33:22,087 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔍 Phase 2: Comprehensive Vulnerability Scanning
+2025-10-01 13:33:22,087 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nuclei: nuclei -u dev.youngplatform.com -t /root/nuclei-templates/ -severity critical,high,medium -o temp/scan_results/vuln_scan_1759325601/nuclei_1759325602.txt
+2025-10-01 13:33:22,088 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing nikto: nikto -h dev.youngplatform.com -output temp/scan_results/vuln_scan_1759325601/nikto_1759325602.txt -Format json
+2025-10-01 13:33:22,088 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing wapiti: wapiti -u dev.youngplatform.com --scope domain -f json -o temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:22,090 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing sqlmap: sqlmap -u 'dev.youngplatform.com' --batch --risk=3 --level=5 --random-agent --tamper=space2comment --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:22,090 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing xssstrike: python3 /opt/XSStrike/xssstrike.py -u dev.youngplatform.com --crawl --blind --skip-dom
+2025-10-01 13:33:22,091 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing dalfox: dalfox url dev.youngplatform.com --deep-domxss --mining-dict --waf-evasion -o temp/scan_results/vuln_scan_1759325601/dalfox_1759325602.txt
+2025-10-01 13:33:22,091 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing commix: python3 /opt/commix/commix.py --url='dev.youngplatform.com' --batch --output-dir=temp/scan_results/vuln_scan_1759325601
+2025-10-01 13:33:22,104 - AEGIS-X.ProfessionalVulnEngine - INFO - 📂 Phase 3: Content and Parameter Discovery
+2025-10-01 13:33:22,104 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing gobuster: gobuster dir -u dev.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/gobuster_1759325602.txt
+2025-10-01 13:33:22,104 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing ffuf: ffuf -u dev.youngplatform.com/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -mc 200,204,301,302,307,401,403 -o temp/scan_results/vuln_scan_1759325601/ffuf_1759325602.txt -of json
+2025-10-01 13:33:22,105 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing feroxbuster: feroxbuster -u dev.youngplatform.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,js,txt,xml,json -o temp/scan_results/vuln_scan_1759325601/feroxbuster_1759325602.txt
+2025-10-01 13:33:22,106 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing arjun: arjun -u dev.youngplatform.com -oJ temp/scan_results/vuln_scan_1759325601/arjun_1759325602.txt
+2025-10-01 13:33:22,107 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing paramspider: python3 /opt/ParamSpider/paramspider.py -d dev.youngplatform.com -o temp/scan_results/vuln_scan_1759325601/paramspider_1759325602.txt
+2025-10-01 13:33:22,119 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔬 Phase 4: JavaScript and API Analysis
+2025-10-01 13:33:22,120 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing linkfinder: python3 /opt/LinkFinder/linkfinder.py -i dev.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/linkfinder_1759325602.txt
+2025-10-01 13:33:22,120 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing secretfinder: python3 /opt/SecretFinder/SecretFinder.py -i dev.youngplatform.com -o cli | tee temp/scan_results/vuln_scan_1759325601/secretfinder_1759325602.txt
+2025-10-01 13:33:22,133 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔧 Executing kiterunner: kr scan dev.youngplatform.com -w /opt/kiterunner/routes.kite -o temp/scan_results/vuln_scan_1759325601/kiterunner_1759325602.txt
+2025-10-01 13:33:22,134 - AEGIS-X.ProfessionalVulnEngine - INFO - 💥 Phase 5: Advanced Exploitation Testing
+2025-10-01 13:33:22,134 - AEGIS-X.ProfessionalVulnEngine - INFO - 🔗 Phase 6: Vulnerability Chaining Analysis
+2025-10-01 13:33:22,134 - AEGIS-X.ProfessionalVulnEngine - INFO - ✅ Comprehensive scan completed - Found 0 total findings
+2025-10-01 13:33:22,134 - AEGIS-X.ProfessionalMaster - INFO - ✅ Target dev.youngplatform.com completed - 0 findings
+2025-10-01 13:33:22,135 - AEGIS-X.ProfessionalMaster - INFO - 🔬 Phase 3: Advanced Verification System
+2025-10-01 13:33:22,135 - AEGIS-X.ProfessionalMaster - INFO - 📸 Phase 4: Professional Evidence Collection
+2025-10-01 13:33:22,135 - AEGIS-X.ProfessionalMaster - INFO - 📝 Phase 5: Professional Report Generation
+2025-10-01 13:33:22,135 - AEGIS-X.ProfessionalMaster - INFO - 📊 Phase 6: Quality Assessment and Learning
+2025-10-01 13:33:22,135 - AEGIS-X.LearningEngine - INFO - 🧠 Learning from session: professional_hunt_1759325601
+2025-10-01 13:33:22,135 - AEGIS-X.LearningEngine - INFO - ✅ Learning completed - 3 insights gained
+2025-10-01 13:33:22,136 - AEGIS-X.ProfessionalMaster - INFO - 💾 Session results saved: temp/sessions/professional_session_professional_hunt_1759325601.json

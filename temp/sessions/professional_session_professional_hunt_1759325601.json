@@ -1,0 +1,1029 @@
+{
+  "session_id": "professional_hunt_1759325601",
+  "start_time": "2025-10-01T13:33:21.745483",
+  "targets_file": "targets.txt",
+  "report_type": "hackerone_professional",
+  "targets": [
+    {
+      "line_number": 5,
+      "raw_target": "youngplatform.com",
+      "classification": "ClassificationResult(target='youngplatform.com', target_type=<TargetType.WEB: 'web'>, confidence=0.8, reasoning='Matched pattern: Domain name', metadata={'all_scores': {'web': {'confidence': 0.8, 'pattern': {'pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.8, 'description': 'Domain name'}}}, 'matched_pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "intelligence": {
+        "target": "youngplatform.com",
+        "target_type": "domain",
+        "analysis_timestamp": "2025-10-01T13:32:33.171615",
+        "intelligence_modules": {
+          "web_intelligence": {
+            "http_headers": {
+              "date": "Wed, 01 Oct 2025 13:32:33 GMT",
+              "content-type": "text/html; charset=utf-8",
+              "transfer-encoding": "chunked",
+              "connection": "keep-alive",
+              "content-encoding": "br",
+              "access-control-allow-origin": "*",
+              "age": "12989",
+              "cache-control": "public, max-age=0, must-revalidate",
+              "content-disposition": "inline",
+              "last-modified": "Wed, 01 Oct 2025 09:56:03 GMT",
+              "strict-transport-security": "max-age=0; includeSubDomains; preload",
+              "x-vercel-cache": "HIT",
+              "x-vercel-id": "cle1::vjtmj-1759325553322-3ab46a6c94d2",
+              "cf-cache-status": "DYNAMIC",
+              "vary": "accept-encoding",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "SAMEORIGIN",
+              "server": "cloudflare",
+              "cf-ray": "987c53a3caa6620f-ORD"
+            },
+            "robots_txt": "User-agent: *\nAllow: /\nSitemap: https://youngplatform.com/sitemap/sitemap-index.xml\nHost: https://youngplatform.com\n",
+            "sitemap_xml": "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n\n    <sitemap>\n        <loc>https://youngplatform.com/sitemap/sitemap-0.xml</loc>\n    </sitemap>\n\n    <sitemap>\n        <loc>https://support.youngplatform.com/hc/sitemap.xml</loc>\n    </sitemap>\n\n    <sitemap>\n        <loc>https://academy.youngplatform.com/sitemap/sitemap-0.xml</loc>\n    </sitemap>\n\n    <sitemap>\n        <loc>https://step.youngplatform.com/sitemap.xml</loc>\n    </sitemap>\n\n</sitemapindex>",
+            "security_headers": {
+              "content_security_policy": null,
+              "x_frame_options": "SAMEORIGIN",
+              "x_content_type_options": "nosniff",
+              "strict_transport_security": "max-age=0; includeSubDomains; preload",
+              "x_xss_protection": null,
+              "referrer_policy": null,
+              "security_score": 60.0
+            },
+            "cookies": [],
+            "redirects": [],
+            "subdomains": [
+              "www.youngplatform.com",
+              "api.youngplatform.com",
+              "blog.youngplatform.com",
+              "support.youngplatform.com",
+              "images.youngplatform.com"
+            ],
+            "linked_domains": [
+              "twitter.com",
+              "schema.org",
+              "support.youngplatform.com",
+              "it.trustpilot.com",
+              "youngplatform.comhttps:",
+              "storage.googleapis.com",
+              "link.youngplatform.com",
+              "www.instagram.com",
+              "discord.gg",
+              "www.tiktok.com",
+              "play.google.com",
+              "www.linkedin.com",
+              "step.youngplatform.com",
+              "www.facebook.com",
+              "academy.youngplatform.com",
+              "www.googletagmanager.com",
+              "youngplatform.com#organization",
+              "www.youtube.com",
+              "pro.youngplatform.com",
+              "youngplatform.com#logo",
+              "exchange.youngplatform.com",
+              "www.w3.org",
+              "apps.apple.com",
+              "connect.facebook.net"
+            ],
+            "javascript_files": [
+              "https://youngplatform.com/webpack-runtime-de3aab70a6677768859c.js",
+              "https://youngplatform.com/d3a2d874-0fed9f83fafff6804ac1.js",
+              "https://youngplatform.com/bc078fe9-a7f236a72282af5cdd22.js",
+              "https://youngplatform.com/06f17da7-19952892d3cc14b3ea7d.js",
+              "https://youngplatform.com/773eafce-22fc3a21c9f3d7952be2.js",
+              "https://youngplatform.com/app-87e82ec9ea5e353599a8.js"
+            ],
+            "api_endpoints": [],
+            "forms": [],
+            "comments": [
+              "slice-start id=\"_gatsby-scripts-1\"",
+              "slice-end id=\"_gatsby-scripts-1\""
+            ],
+            "metadata": {
+              "title": "Young Platform | Compra Bitcoin, \u00e8 semplice",
+              "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+              "generator": "Gatsby 5.12.5",
+              "description": "Il crypto exchange italiano dove puoi acquistare e vendere Bitcoin e le migliori altcoin del mercato. Accumula criptovalute e costruisci il tuo futuro finanziario giorno dopo giorno.",
+              "theme-color": "#ffffff"
+            },
+            "status_code": 200,
+            "sitemap_urls": [
+              "https://youngplatform.com/sitemap/sitemap-0.xml",
+              "https://support.youngplatform.com/hc/sitemap.xml",
+              "https://academy.youngplatform.com/sitemap/sitemap-0.xml",
+              "https://step.youngplatform.com/sitemap.xml"
+            ]
+          },
+          "dns_intelligence": {
+            "a_records": [
+              "104.20.43.132",
+              "172.66.168.126"
+            ],
+            "aaaa_records": [],
+            "mx_records": [
+              {
+                "priority": 1,
+                "exchange": "aspmx.l.google.com."
+              },
+              {
+                "priority": 10,
+                "exchange": "alt3.aspmx.l.google.com."
+              },
+              {
+                "priority": 10,
+                "exchange": "alt4.aspmx.l.google.com."
+              },
+              {
+                "priority": 5,
+                "exchange": "alt1.aspmx.l.google.com."
+              },
+              {
+                "priority": 5,
+                "exchange": "alt2.aspmx.l.google.com."
+              }
+            ],
+            "ns_records": [
+              "itzel.ns.cloudflare.com.",
+              "sterling.ns.cloudflare.com."
+            ],
+            "txt_records": [
+              "\"atlassian-sending-domain-verification=2adc32f9-acd6-4737-8121-46205b0ccfa5\"",
+              "\"google-site-verification=69fRZVYAXb9FIx6gFGqYxfCOvqOUUoSjna7ihm4Udg4\"",
+              "\"google-site-verification=O5iMVKbxfI8HFUffXAGVJGnbObZzo_buZ-CK5oWZ6hY\"",
+              "\"status-page-domain-verification=xdhypn66whmb\"",
+              "\"v=spf1 include:emsd1.com include:_spf.google.com include:sendgrid.net include:mail.zendesk.com include:_spf.atlassian.net -all\""
+            ],
+            "cname_records": [],
+            "soa_record": {
+              "mname": "itzel.ns.cloudflare.com.",
+              "rname": "dns.cloudflare.com.",
+              "serial": 2381686372,
+              "refresh": 10000,
+              "retry": 2400,
+              "expire": 604800,
+              "minimum": 1800
+            },
+            "reverse_dns": {},
+            "dns_security": {
+              "spf_record": false,
+              "dmarc_record": false,
+              "dkim_record": false,
+              "dnssec": false,
+              "security_score": 0.0
+            }
+          },
+          "ssl_intelligence": {
+            "certificate": {
+              "subject": {
+                "commonName": "*.youngplatform.com"
+              },
+              "issuer": {
+                "countryName": "GB",
+                "stateOrProvinceName": "Greater Manchester",
+                "localityName": "Salford",
+                "organizationName": "Sectigo Limited",
+                "commonName": "Sectigo RSA Domain Validation Secure Server CA"
+              },
+              "version": 3,
+              "serial_number": "220E50C593A836FF9C7C4A26D3B39481",
+              "not_before": "Nov 20 00:00:00 2024 GMT",
+              "not_after": "Dec 20 23:59:59 2025 GMT",
+              "signature_algorithm": null,
+              "san": [
+                [
+                  "DNS",
+                  "*.youngplatform.com"
+                ],
+                [
+                  "DNS",
+                  "youngplatform.com"
+                ]
+              ]
+            },
+            "cipher_suites": [],
+            "protocols": [],
+            "vulnerabilities": [],
+            "configuration_issues": [],
+            "trust_chain": [],
+            "cipher": [
+              "TLS_AES_256_GCM_SHA384",
+              "TLSv1.3",
+              256
+            ],
+            "protocol": "TLSv1.3"
+          },
+          "technology_detection": {
+            "web_server": "cloudflare",
+            "programming_languages": [],
+            "frameworks": [
+              "react",
+              "angular"
+            ],
+            "cms": "",
+            "javascript_libraries": [],
+            "analytics": [
+              "facebook_pixel"
+            ],
+            "cdn": "cloudflare",
+            "cloud_provider": "",
+            "database": "",
+            "operating_system": ""
+          },
+          "vulnerability_research": {
+            "known_cves": [],
+            "exploit_availability": [],
+            "security_advisories": [],
+            "patch_status": {},
+            "risk_score": 0.0
+          },
+          "social_intelligence": {
+            "whois_data": {
+              "registrar": "Squarespace Domains II LLC",
+              "creation_date": "2018-05-09 12:45:53",
+              "expiration_date": "2029-05-09 12:45:53",
+              "name_servers": [
+                "ITZEL.NS.CLOUDFLARE.COM",
+                "STERLING.NS.CLOUDFLARE.COM"
+              ],
+              "organization": "Young Agency s.r.l",
+              "country": "IT"
+            },
+            "organization_info": {
+              "name": "Young Agency s.r.l"
+            },
+            "contact_information": {},
+            "social_media_presence": [],
+            "employee_information": [],
+            "breach_history": [],
+            "reputation_score": 7.48054794520548
+          },
+          "threat_intelligence": {
+            "malware_associations": [],
+            "blacklist_status": {},
+            "threat_feeds": [],
+            "attack_patterns": [],
+            "ioc_matches": [],
+            "threat_score": 0.0
+          }
+        },
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [
+          "Test for react framework vulnerabilities",
+          "Test for angular framework vulnerabilities",
+          "Expand testing to discovered subdomains"
+        ],
+        "confidence_score": 1.0
+      },
+      "processed_timestamp": "2025-10-01T13:33:21.747217"
+    },
+    {
+      "line_number": 8,
+      "raw_target": "*.youngplatform.com",
+      "classification": "ClassificationResult(target='*.youngplatform.com', target_type=<TargetType.WEB: 'web'>, confidence=0.85, reasoning='Matched pattern: Wildcard domain', metadata={'all_scores': {'web': {'confidence': 0.85, 'pattern': {'pattern': '^\\\\*\\\\.[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.85, 'description': 'Wildcard domain'}}}, 'matched_pattern': '^\\\\*\\\\.[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "intelligence": {
+        "target": "*.youngplatform.com",
+        "target_type": "domain",
+        "analysis_timestamp": "2025-10-01T13:32:34.910742",
+        "intelligence_modules": {
+          "web_intelligence": {
+            "http_headers": {},
+            "robots_txt": "",
+            "sitemap_xml": "",
+            "security_headers": {},
+            "cookies": [],
+            "redirects": [],
+            "subdomains": [],
+            "linked_domains": [],
+            "javascript_files": [],
+            "api_endpoints": [],
+            "forms": [],
+            "comments": [],
+            "metadata": {}
+          },
+          "dns_intelligence": {
+            "a_records": [],
+            "aaaa_records": [],
+            "mx_records": [],
+            "ns_records": [],
+            "txt_records": [],
+            "cname_records": [],
+            "soa_record": {},
+            "reverse_dns": {},
+            "dns_security": {
+              "spf_record": false,
+              "dmarc_record": false,
+              "dkim_record": false,
+              "dnssec": false,
+              "security_score": 0.0
+            }
+          },
+          "ssl_intelligence": {
+            "certificate": {},
+            "cipher_suites": [],
+            "protocols": [],
+            "vulnerabilities": [],
+            "configuration_issues": [],
+            "trust_chain": [],
+            "error": "[Errno -2] Name or service not known"
+          },
+          "technology_detection": {
+            "web_server": "",
+            "programming_languages": [],
+            "frameworks": [],
+            "cms": "",
+            "javascript_libraries": [],
+            "analytics": [],
+            "cdn": "",
+            "cloud_provider": "",
+            "database": "",
+            "operating_system": "",
+            "error": "[Errno -2] Name or service not known"
+          },
+          "vulnerability_research": {
+            "known_cves": [],
+            "exploit_availability": [],
+            "security_advisories": [],
+            "patch_status": {},
+            "risk_score": 0.0
+          },
+          "social_intelligence": {
+            "whois_data": {
+              "registrar": "Squarespace Domains II LLC",
+              "creation_date": "2018-05-09 12:45:53",
+              "expiration_date": "2029-05-09 12:45:53",
+              "name_servers": [
+                "ITZEL.NS.CLOUDFLARE.COM",
+                "STERLING.NS.CLOUDFLARE.COM"
+              ],
+              "organization": "Young Agency s.r.l",
+              "country": "IT"
+            },
+            "organization_info": {
+              "name": "Young Agency s.r.l"
+            },
+            "contact_information": {},
+            "social_media_presence": [],
+            "employee_information": [],
+            "breach_history": [],
+            "reputation_score": 7.48054794520548
+          },
+          "threat_intelligence": {
+            "malware_associations": [],
+            "blacklist_status": {},
+            "threat_feeds": [],
+            "attack_patterns": [],
+            "ioc_matches": [],
+            "threat_score": 0.0
+          }
+        },
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [],
+        "confidence_score": 0.7142857142857143
+      },
+      "processed_timestamp": "2025-10-01T13:33:21.748001"
+    },
+    {
+      "line_number": 9,
+      "raw_target": "api.youngplatform.com",
+      "classification": "ClassificationResult(target='api.youngplatform.com', target_type=<TargetType.WEB: 'web'>, confidence=0.8, reasoning='Matched pattern: Domain name', metadata={'all_scores': {'web': {'confidence': 0.8, 'pattern': {'pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.8, 'description': 'Domain name'}}}, 'matched_pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "intelligence": {
+        "target": "api.youngplatform.com",
+        "target_type": "domain",
+        "analysis_timestamp": "2025-10-01T13:32:35.776042",
+        "intelligence_modules": {
+          "web_intelligence": {
+            "http_headers": {
+              "date": "Wed, 01 Oct 2025 13:32:36 GMT",
+              "content-length": "0",
+              "connection": "keep-alive",
+              "cf-ray": "987c53b3fda5871c-ORD",
+              "access-control-expose-headers": "date",
+              "x-frame-options": "SAMEORIGIN",
+              "x-content-type-options": "nosniff",
+              "x-xss-protection": "1; mode=block",
+              "strict-transport-security": "max-age=0; includeSubDomains; preload",
+              "permissions-policy": "geolocation=(self), microphone=()",
+              "referrer-policy": "no-referrer",
+              "content-security-policy": "default-src 'none'",
+              "x-permitted-cross-domain-policies": "none",
+              "cf-cache-status": "DYNAMIC",
+              "server": "cloudflare"
+            },
+            "robots_txt": "",
+            "sitemap_xml": "",
+            "security_headers": {
+              "content_security_policy": "default-src 'none'",
+              "x_frame_options": "SAMEORIGIN",
+              "x_content_type_options": "nosniff",
+              "strict_transport_security": "max-age=0; includeSubDomains; preload",
+              "x_xss_protection": "1; mode=block",
+              "referrer_policy": "no-referrer",
+              "security_score": 100.0
+            },
+            "cookies": [],
+            "redirects": [],
+            "subdomains": [],
+            "linked_domains": [],
+            "javascript_files": [],
+            "api_endpoints": [],
+            "forms": [],
+            "comments": [],
+            "metadata": {},
+            "status_code": 404
+          },
+          "dns_intelligence": {
+            "a_records": [
+              "172.66.168.126",
+              "104.20.43.132"
+            ],
+            "aaaa_records": [],
+            "mx_records": [],
+            "ns_records": [],
+            "txt_records": [],
+            "cname_records": [],
+            "soa_record": {},
+            "reverse_dns": {},
+            "dns_security": {
+              "spf_record": false,
+              "dmarc_record": false,
+              "dkim_record": false,
+              "dnssec": false,
+              "security_score": 0.0
+            }
+          },
+          "ssl_intelligence": {
+            "certificate": {
+              "subject": {
+                "commonName": "*.youngplatform.com"
+              },
+              "issuer": {
+                "countryName": "GB",
+                "stateOrProvinceName": "Greater Manchester",
+                "localityName": "Salford",
+                "organizationName": "Sectigo Limited",
+                "commonName": "Sectigo RSA Domain Validation Secure Server CA"
+              },
+              "version": 3,
+              "serial_number": "220E50C593A836FF9C7C4A26D3B39481",
+              "not_before": "Nov 20 00:00:00 2024 GMT",
+              "not_after": "Dec 20 23:59:59 2025 GMT",
+              "signature_algorithm": null,
+              "san": [
+                [
+                  "DNS",
+                  "*.youngplatform.com"
+                ],
+                [
+                  "DNS",
+                  "youngplatform.com"
+                ]
+              ]
+            },
+            "cipher_suites": [],
+            "protocols": [],
+            "vulnerabilities": [],
+            "configuration_issues": [],
+            "trust_chain": [],
+            "cipher": [
+              "TLS_AES_256_GCM_SHA384",
+              "TLSv1.3",
+              256
+            ],
+            "protocol": "TLSv1.3"
+          },
+          "technology_detection": {
+            "web_server": "cloudflare",
+            "programming_languages": [],
+            "frameworks": [],
+            "cms": "",
+            "javascript_libraries": [],
+            "analytics": [],
+            "cdn": "cloudflare",
+            "cloud_provider": "",
+            "database": "",
+            "operating_system": ""
+          },
+          "vulnerability_research": {
+            "known_cves": [],
+            "exploit_availability": [],
+            "security_advisories": [],
+            "patch_status": {},
+            "risk_score": 0.0
+          },
+          "social_intelligence": {
+            "whois_data": {
+              "registrar": "Squarespace Domains II LLC",
+              "creation_date": "2018-05-09 12:45:53",
+              "expiration_date": "2029-05-09 12:45:53",
+              "name_servers": [
+                "ITZEL.NS.CLOUDFLARE.COM",
+                "STERLING.NS.CLOUDFLARE.COM"
+              ],
+              "organization": "Young Agency s.r.l",
+              "country": "IT"
+            },
+            "organization_info": {
+              "name": "Young Agency s.r.l"
+            },
+            "contact_information": {},
+            "social_media_presence": [],
+            "employee_information": [],
+            "breach_history": [],
+            "reputation_score": 7.48054794520548
+          },
+          "threat_intelligence": {
+            "malware_associations": [],
+            "blacklist_status": {},
+            "threat_feeds": [],
+            "attack_patterns": [],
+            "ioc_matches": [],
+            "threat_score": 0.0
+          }
+        },
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [],
+        "confidence_score": 1.0
+      },
+      "processed_timestamp": "2025-10-01T13:33:21.748729"
+    },
+    {
+      "line_number": 10,
+      "raw_target": "app.youngplatform.com",
+      "classification": "ClassificationResult(target='app.youngplatform.com', target_type=<TargetType.WEB: 'web'>, confidence=0.8, reasoning='Matched pattern: Domain name', metadata={'all_scores': {'web': {'confidence': 0.8, 'pattern': {'pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.8, 'description': 'Domain name'}}}, 'matched_pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "intelligence": {
+        "target": "app.youngplatform.com",
+        "target_type": "domain",
+        "analysis_timestamp": "2025-10-01T13:32:38.273250",
+        "intelligence_modules": {
+          "web_intelligence": {
+            "http_headers": {},
+            "robots_txt": "",
+            "sitemap_xml": "",
+            "security_headers": {},
+            "cookies": [],
+            "redirects": [],
+            "subdomains": [],
+            "linked_domains": [],
+            "javascript_files": [],
+            "api_endpoints": [],
+            "forms": [],
+            "comments": [],
+            "metadata": {}
+          },
+          "dns_intelligence": {
+            "a_records": [],
+            "aaaa_records": [],
+            "mx_records": [],
+            "ns_records": [],
+            "txt_records": [],
+            "cname_records": [],
+            "soa_record": {},
+            "reverse_dns": {},
+            "dns_security": {
+              "spf_record": false,
+              "dmarc_record": false,
+              "dkim_record": false,
+              "dnssec": false,
+              "security_score": 0.0
+            }
+          },
+          "ssl_intelligence": {
+            "certificate": {},
+            "cipher_suites": [],
+            "protocols": [],
+            "vulnerabilities": [],
+            "configuration_issues": [],
+            "trust_chain": [],
+            "error": "[Errno -2] Name or service not known"
+          },
+          "technology_detection": {
+            "web_server": "",
+            "programming_languages": [],
+            "frameworks": [],
+            "cms": "",
+            "javascript_libraries": [],
+            "analytics": [],
+            "cdn": "",
+            "cloud_provider": "",
+            "database": "",
+            "operating_system": "",
+            "error": "[Errno -2] Name or service not known"
+          },
+          "vulnerability_research": {
+            "known_cves": [],
+            "exploit_availability": [],
+            "security_advisories": [],
+            "patch_status": {},
+            "risk_score": 0.0
+          },
+          "social_intelligence": {
+            "whois_data": {
+              "registrar": "Squarespace Domains II LLC",
+              "creation_date": "2018-05-09 12:45:53",
+              "expiration_date": "2029-05-09 12:45:53",
+              "name_servers": [
+                "ITZEL.NS.CLOUDFLARE.COM",
+                "STERLING.NS.CLOUDFLARE.COM"
+              ],
+              "organization": "Young Agency s.r.l",
+              "country": "IT"
+            },
+            "organization_info": {
+              "name": "Young Agency s.r.l"
+            },
+            "contact_information": {},
+            "social_media_presence": [],
+            "employee_information": [],
+            "breach_history": [],
+            "reputation_score": 7.48054794520548
+          },
+          "threat_intelligence": {
+            "malware_associations": [],
+            "blacklist_status": {},
+            "threat_feeds": [],
+            "attack_patterns": [],
+            "ioc_matches": [],
+            "threat_score": 0.0
+          }
+        },
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [],
+        "confidence_score": 0.7142857142857143
+      },
+      "processed_timestamp": "2025-10-01T13:33:21.749344"
+    },
+    {
+      "line_number": 11,
+      "raw_target": "admin.youngplatform.com",
+      "classification": "ClassificationResult(target='admin.youngplatform.com', target_type=<TargetType.WEB: 'web'>, confidence=0.8, reasoning='Matched pattern: Domain name', metadata={'all_scores': {'web': {'confidence': 0.8, 'pattern': {'pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.8, 'description': 'Domain name'}}}, 'matched_pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "intelligence": {
+        "target": "admin.youngplatform.com",
+        "target_type": "domain",
+        "analysis_timestamp": "2025-10-01T13:32:39.034251",
+        "intelligence_modules": {
+          "web_intelligence": {
+            "http_headers": {},
+            "robots_txt": "",
+            "sitemap_xml": "",
+            "security_headers": {},
+            "cookies": [],
+            "redirects": [],
+            "subdomains": [],
+            "linked_domains": [],
+            "javascript_files": [],
+            "api_endpoints": [],
+            "forms": [],
+            "comments": [],
+            "metadata": {}
+          },
+          "dns_intelligence": {
+            "a_records": [],
+            "aaaa_records": [],
+            "mx_records": [],
+            "ns_records": [],
+            "txt_records": [],
+            "cname_records": [],
+            "soa_record": {},
+            "reverse_dns": {},
+            "dns_security": {
+              "spf_record": false,
+              "dmarc_record": false,
+              "dkim_record": false,
+              "dnssec": false,
+              "security_score": 0.0
+            }
+          },
+          "ssl_intelligence": {
+            "certificate": {},
+            "cipher_suites": [],
+            "protocols": [],
+            "vulnerabilities": [],
+            "configuration_issues": [],
+            "trust_chain": [],
+            "error": "[Errno -2] Name or service not known"
+          },
+          "technology_detection": {
+            "web_server": "",
+            "programming_languages": [],
+            "frameworks": [],
+            "cms": "",
+            "javascript_libraries": [],
+            "analytics": [],
+            "cdn": "",
+            "cloud_provider": "",
+            "database": "",
+            "operating_system": "",
+            "error": "[Errno -2] Name or service not known"
+          },
+          "vulnerability_research": {
+            "known_cves": [],
+            "exploit_availability": [],
+            "security_advisories": [],
+            "patch_status": {},
+            "risk_score": 0.0
+          },
+          "social_intelligence": {
+            "whois_data": {
+              "registrar": "Squarespace Domains II LLC",
+              "creation_date": "2018-05-09 12:45:53",
+              "expiration_date": "2029-05-09 12:45:53",
+              "name_servers": [
+                "ITZEL.NS.CLOUDFLARE.COM",
+                "STERLING.NS.CLOUDFLARE.COM"
+              ],
+              "organization": "Young Agency s.r.l",
+              "country": "IT"
+            },
+            "organization_info": {
+              "name": "Young Agency s.r.l"
+            },
+            "contact_information": {},
+            "social_media_presence": [],
+            "employee_information": [],
+            "breach_history": [],
+            "reputation_score": 7.48054794520548
+          },
+          "threat_intelligence": {
+            "malware_associations": [],
+            "blacklist_status": {},
+            "threat_feeds": [],
+            "attack_patterns": [],
+            "ioc_matches": [],
+            "threat_score": 0.0
+          }
+        },
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [],
+        "confidence_score": 0.7142857142857143
+      },
+      "processed_timestamp": "2025-10-01T13:33:21.749968"
+    },
+    {
+      "line_number": 12,
+      "raw_target": "staging.youngplatform.com",
+      "classification": "ClassificationResult(target='staging.youngplatform.com', target_type=<TargetType.WEB: 'web'>, confidence=0.8, reasoning='Matched pattern: Domain name', metadata={'all_scores': {'web': {'confidence': 0.8, 'pattern': {'pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.8, 'description': 'Domain name'}}}, 'matched_pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "intelligence": {
+        "target": "staging.youngplatform.com",
+        "target_type": "domain",
+        "analysis_timestamp": "2025-10-01T13:32:39.845735",
+        "intelligence_modules": {
+          "web_intelligence": {
+            "http_headers": {},
+            "robots_txt": "",
+            "sitemap_xml": "",
+            "security_headers": {},
+            "cookies": [],
+            "redirects": [],
+            "subdomains": [],
+            "linked_domains": [],
+            "javascript_files": [],
+            "api_endpoints": [],
+            "forms": [],
+            "comments": [],
+            "metadata": {}
+          },
+          "dns_intelligence": {
+            "a_records": [],
+            "aaaa_records": [],
+            "mx_records": [],
+            "ns_records": [],
+            "txt_records": [],
+            "cname_records": [],
+            "soa_record": {},
+            "reverse_dns": {},
+            "dns_security": {
+              "spf_record": false,
+              "dmarc_record": false,
+              "dkim_record": false,
+              "dnssec": false,
+              "security_score": 0.0
+            }
+          },
+          "ssl_intelligence": {
+            "certificate": {},
+            "cipher_suites": [],
+            "protocols": [],
+            "vulnerabilities": [],
+            "configuration_issues": [],
+            "trust_chain": [],
+            "error": "[Errno -2] Name or service not known"
+          },
+          "technology_detection": {
+            "web_server": "",
+            "programming_languages": [],
+            "frameworks": [],
+            "cms": "",
+            "javascript_libraries": [],
+            "analytics": [],
+            "cdn": "",
+            "cloud_provider": "",
+            "database": "",
+            "operating_system": "",
+            "error": "[Errno -2] Name or service not known"
+          },
+          "vulnerability_research": {
+            "known_cves": [],
+            "exploit_availability": [],
+            "security_advisories": [],
+            "patch_status": {},
+            "risk_score": 0.0
+          },
+          "social_intelligence": {
+            "whois_data": {
+              "registrar": "Squarespace Domains II LLC",
+              "creation_date": "2018-05-09 12:45:53",
+              "expiration_date": "2029-05-09 12:45:53",
+              "name_servers": [
+                "ITZEL.NS.CLOUDFLARE.COM",
+                "STERLING.NS.CLOUDFLARE.COM"
+              ],
+              "organization": "Young Agency s.r.l",
+              "country": "IT"
+            },
+            "organization_info": {
+              "name": "Young Agency s.r.l"
+            },
+            "contact_information": {},
+            "social_media_presence": [],
+            "employee_information": [],
+            "breach_history": [],
+            "reputation_score": 7.48054794520548
+          },
+          "threat_intelligence": {
+            "malware_associations": [],
+            "blacklist_status": {},
+            "threat_feeds": [],
+            "attack_patterns": [],
+            "ioc_matches": [],
+            "threat_score": 0.0
+          }
+        },
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [],
+        "confidence_score": 0.7142857142857143
+      },
+      "processed_timestamp": "2025-10-01T13:33:21.750582"
+    },
+    {
+      "line_number": 13,
+      "raw_target": "dev.youngplatform.com",
+      "classification": "ClassificationResult(target='dev.youngplatform.com', target_type=<TargetType.WEB: 'web'>, confidence=0.8, reasoning='Matched pattern: Domain name', metadata={'all_scores': {'web': {'confidence': 0.8, 'pattern': {'pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$', 'confidence': 0.8, 'description': 'Domain name'}}}, 'matched_pattern': '^[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$'}, learning_notes=[])",
+      "intelligence": {
+        "target": "dev.youngplatform.com",
+        "target_type": "domain",
+        "analysis_timestamp": "2025-10-01T13:32:40.634097",
+        "intelligence_modules": {
+          "web_intelligence": {
+            "http_headers": {},
+            "robots_txt": "",
+            "sitemap_xml": "",
+            "security_headers": {},
+            "cookies": [],
+            "redirects": [],
+            "subdomains": [],
+            "linked_domains": [],
+            "javascript_files": [],
+            "api_endpoints": [],
+            "forms": [],
+            "comments": [],
+            "metadata": {}
+          },
+          "dns_intelligence": {
+            "a_records": [],
+            "aaaa_records": [],
+            "mx_records": [],
+            "ns_records": [],
+            "txt_records": [],
+            "cname_records": [],
+            "soa_record": {},
+            "reverse_dns": {},
+            "dns_security": {
+              "spf_record": false,
+              "dmarc_record": false,
+              "dkim_record": false,
+              "dnssec": false,
+              "security_score": 0.0
+            }
+          },
+          "ssl_intelligence": {
+            "certificate": {},
+            "cipher_suites": [],
+            "protocols": [],
+            "vulnerabilities": [],
+            "configuration_issues": [],
+            "trust_chain": [],
+            "error": "[Errno -2] Name or service not known"
+          },
+          "technology_detection": {
+            "web_server": "",
+            "programming_languages": [],
+            "frameworks": [],
+            "cms": "",
+            "javascript_libraries": [],
+            "analytics": [],
+            "cdn": "",
+            "cloud_provider": "",
+            "database": "",
+            "operating_system": "",
+            "error": "[Errno -2] Name or service not known"
+          },
+          "vulnerability_research": {
+            "known_cves": [],
+            "exploit_availability": [],
+            "security_advisories": [],
+            "patch_status": {},
+            "risk_score": 0.0
+          },
+          "social_intelligence": {
+            "whois_data": {
+              "registrar": "Squarespace Domains II LLC",
+              "creation_date": "2018-05-09 12:45:53",
+              "expiration_date": "2029-05-09 12:45:53",
+              "name_servers": [
+                "ITZEL.NS.CLOUDFLARE.COM",
+                "STERLING.NS.CLOUDFLARE.COM"
+              ],
+              "organization": "Young Agency s.r.l",
+              "country": "IT"
+            },
+            "organization_info": {
+              "name": "Young Agency s.r.l"
+            },
+            "contact_information": {},
+            "social_media_presence": [],
+            "employee_information": [],
+            "breach_history": [],
+            "reputation_score": 7.48054794520548
+          },
+          "threat_intelligence": {
+            "malware_associations": [],
+            "blacklist_status": {},
+            "threat_feeds": [],
+            "attack_patterns": [],
+            "ioc_matches": [],
+            "threat_score": 0.0
+          }
+        },
+        "risk_assessment": {
+          "risk_score": 0.0,
+          "risk_level": "Minimal",
+          "risk_factors": [],
+          "recommendations": []
+        },
+        "recommendations": [],
+        "confidence_score": 0.7142857142857143
+      },
+      "processed_timestamp": "2025-10-01T13:33:21.751176"
+    }
+  ],
+  "findings": [],
+  "verified_findings": [],
+  "evidence_packages": [],
+  "reports": [],
+  "statistics": {
+    "start_time": "2025-10-01T13:33:21.745483",
+    "targets_processed": 7,
+    "vulnerabilities_found": 0,
+    "vulnerabilities_verified": 0,
+    "evidence_packages_created": 0,
+    "reports_generated": 0,
+    "quality_score": 0.12
+  },
+  "quality_metrics": {
+    "overall_quality_score": 0.12,
+    "verification_rate": 0.0,
+    "evidence_quality": 0.0,
+    "report_quality": 0.0,
+    "false_positive_rate": 1.0,
+    "coverage_score": 0.8,
+    "professional_standards_compliance": 0.0
+  },
+  "end_time": "2025-10-01T13:33:22.135423",
+  "duration": "00:00:00"
+}

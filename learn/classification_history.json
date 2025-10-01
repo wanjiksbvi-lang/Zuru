@@ -1,0 +1,174 @@
+{
+  "classification_history": [
+    {
+      "target": "app.aikido.dev",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-09-28 19:08:09.425395",
+      "learning_notes": []
+    },
+    {
+      "target": "app.aikido.dev",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-09-28 19:08:56.185614",
+      "learning_notes": []
+    },
+    {
+      "target": "*.aikido.dev",
+      "classified_type": "web",
+      "confidence": 0.85,
+      "reasoning": "Matched pattern: Wildcard domain",
+      "timestamp": "2025-09-28 19:08:56.186302",
+      "learning_notes": []
+    },
+    {
+      "target": "app.aikido.dev",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-09-28 19:18:02.880095",
+      "learning_notes": []
+    },
+    {
+      "target": "*.aikido.dev",
+      "classified_type": "web",
+      "confidence": 0.85,
+      "reasoning": "Matched pattern: Wildcard domain",
+      "timestamp": "2025-09-28 19:18:02.880591",
+      "learning_notes": []
+    },
+    {
+      "target": "app.aikido.dev",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-09-28 19:18:49.434976",
+      "learning_notes": []
+    },
+    {
+      "target": "*.aikido.dev",
+      "classified_type": "web",
+      "confidence": 0.85,
+      "reasoning": "Matched pattern: Wildcard domain",
+      "timestamp": "2025-09-28 19:18:49.435515",
+      "learning_notes": []
+    },
+    {
+      "target": "youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:32:33.171200",
+      "learning_notes": []
+    },
+    {
+      "target": "*.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.85,
+      "reasoning": "Matched pattern: Wildcard domain",
+      "timestamp": "2025-10-01 13:32:34.910461",
+      "learning_notes": []
+    },
+    {
+      "target": "api.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:32:35.775750",
+      "learning_notes": []
+    },
+    {
+      "target": "app.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:32:38.272940",
+      "learning_notes": []
+    },
+    {
+      "target": "admin.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:32:39.033951",
+      "learning_notes": []
+    },
+    {
+      "target": "staging.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:32:39.845409",
+      "learning_notes": []
+    },
+    {
+      "target": "dev.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:32:40.633806",
+      "learning_notes": []
+    },
+    {
+      "target": "youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:33:21.746907",
+      "learning_notes": []
+    },
+    {
+      "target": "*.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.85,
+      "reasoning": "Matched pattern: Wildcard domain",
+      "timestamp": "2025-10-01 13:33:21.747431",
+      "learning_notes": []
+    },
+    {
+      "target": "api.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:33:21.748198",
+      "learning_notes": []
+    },
+    {
+      "target": "app.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:33:21.748981",
+      "learning_notes": []
+    },
+    {
+      "target": "admin.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:33:21.749605",
+      "learning_notes": []
+    },
+    {
+      "target": "staging.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:33:21.750212",
+      "learning_notes": []
+    },
+    {
+      "target": "dev.youngplatform.com",
+      "classified_type": "web",
+      "confidence": 0.8,
+      "reasoning": "Matched pattern: Domain name",
+      "timestamp": "2025-10-01 13:33:21.750822",
+      "learning_notes": []
+    }
+  ],
+  "pattern_success_rates": {},
+  "improvement_notes": []
+}

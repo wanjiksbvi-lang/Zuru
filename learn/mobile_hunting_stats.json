@@ -1,0 +1,25 @@
+{
+  "apps_analyzed": 3,
+  "vulnerabilities_found": 0,
+  "tools_success_rate": {},
+  "hunting_history": [
+    {
+      "target": "youngplatform.com",
+      "findings_count": 0,
+      "phases_completed": [],
+      "timestamp": "2025-09-29T11:56:35.965865"
+    },
+    {
+      "target": "youngplatform.com",
+      "findings_count": 0,
+      "phases_completed": [],
+      "timestamp": "2025-09-29T11:57:03.601463"
+    },
+    {
+      "target": "youngplatform.com",
+      "findings_count": 0,
+      "phases_completed": [],
+      "timestamp": "2025-09-29T12:00:42.976028"
+    }
+  ]
+}

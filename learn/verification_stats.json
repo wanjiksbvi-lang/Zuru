@@ -1,0 +1,212 @@
+{
+  "total_verifications": 29,
+  "layer_1_success": 0,
+  "layer_2_success": 0,
+  "layer_3_success": 0,
+  "false_positive_rate": 1.0,
+  "verification_history": [
+    {
+      "verification_id": "verify_1759087149_b4b5a8fe",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.806836"
+    },
+    {
+      "verification_id": "verify_1759087149_b894662b",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.807129"
+    },
+    {
+      "verification_id": "verify_1759087149_fbc20fce",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.807462"
+    },
+    {
+      "verification_id": "verify_1759087149_3213a3de",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.807940"
+    },
+    {
+      "verification_id": "verify_1759087149_96d44502",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.808443"
+    },
+    {
+      "verification_id": "verify_1759087149_8404f440",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.808881"
+    },
+    {
+      "verification_id": "verify_1759087149_e0b6c975",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.809655"
+    },
+    {
+      "verification_id": "verify_1759087149_706d1297",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.810364"
+    },
+    {
+      "verification_id": "verify_1759087149_5325d1b1",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.810844"
+    },
+    {
+      "verification_id": "verify_1759087149_32598fc6",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.811352"
+    },
+    {
+      "verification_id": "verify_1759087149_ced3ed5d",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.811791"
+    },
+    {
+      "verification_id": "verify_1759087149_1f601bb7",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.812261"
+    },
+    {
+      "verification_id": "verify_1759087149_ddb21c4d",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.812740"
+    },
+    {
+      "verification_id": "verify_1759087149_be8da412",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.813208"
+    },
+    {
+      "verification_id": "verify_1759087149_52619af0",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.819042"
+    },
+    {
+      "verification_id": "verify_1759087149_b4b5a8fe",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-28T19:19:09.819455"
+    },
+    {
+      "verification_id": "verify_1759140366_14c6145a",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.553002"
+    },
+    {
+      "verification_id": "verify_1759140366_e6d5f38b",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.558914"
+    },
+    {
+      "verification_id": "verify_1759140366_4b604268",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.560401"
+    },
+    {
+      "verification_id": "verify_1759140366_86e13c8f",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.561845"
+    },
+    {
+      "verification_id": "verify_1759140366_d6135ac5",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.563183"
+    },
+    {
+      "verification_id": "verify_1759140366_f9f7101c",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.564486"
+    },
+    {
+      "verification_id": "verify_1759140366_10df1419",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.565786"
+    },
+    {
+      "verification_id": "verify_1759140366_a5047ba6",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.567035"
+    },
+    {
+      "verification_id": "verify_1759140366_de8a2839",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.568246"
+    },
+    {
+      "verification_id": "verify_1759140366_78bd18d1",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.569465"
+    },
+    {
+      "verification_id": "verify_1759140366_b98a10e0",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.570774"
+    },
+    {
+      "verification_id": "verify_1759140366_b98a10e0",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.572058"
+    },
+    {
+      "verification_id": "verify_1759140366_b98a10e0",
+      "verified": false,
+      "layers_passed": 0,
+      "confidence_score": 0.0,
+      "timestamp": "2025-09-29T10:06:06.573304"
+    }
+  ]
+}

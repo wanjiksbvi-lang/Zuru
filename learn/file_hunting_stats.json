@@ -1,0 +1,24 @@
+{
+  "files_analyzed": 3,
+  "secrets_found": 0,
+  "hunting_history": [
+    {
+      "target": "youngplatform.com",
+      "findings_count": 0,
+      "secrets_count": 0,
+      "timestamp": "2025-09-29T11:56:35.961929"
+    },
+    {
+      "target": "youngplatform.com",
+      "findings_count": 0,
+      "secrets_count": 0,
+      "timestamp": "2025-09-29T11:57:03.596869"
+    },
+    {
+      "target": "youngplatform.com",
+      "findings_count": 0,
+      "secrets_count": 0,
+      "timestamp": "2025-09-29T12:00:42.972107"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "repositories_analyzed": 3,
+  "files_scanned": 0,
+  "vulnerabilities_found": 0,
+  "secrets_found": 0,
+  "hunting_history": [
+    {
+      "target": "youngplatform.com",
+      "files_scanned": 0,
+      "findings_count": 0,
+      "secrets_count": 0,
+      "timestamp": "2025-09-29T11:56:35.966110"
+    },
+    {
+      "target": "youngplatform.com",
+      "files_scanned": 0,
+      "findings_count": 0,
+      "secrets_count": 0,
+      "timestamp": "2025-09-29T11:57:03.601729"
+    },
+    {
+      "target": "youngplatform.com",
+      "files_scanned": 0,
+      "findings_count": 0,
+      "secrets_count": 0,
+      "timestamp": "2025-09-29T12:00:42.976253"
+    }
+  ]
+}
